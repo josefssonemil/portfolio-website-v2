@@ -22,14 +22,11 @@ export default function Home() {
 
         <div className="flex flex-wrap -mx-2 overflow-hidden justify-evenly ">
 
-          <Link href="/">
-            <ProjectCard
-              name="Authentication"
-              description="TBD"
-              path="M10 17c0 .552-.447 1-1 1s-1-.448-1-1 .447-1 1-1 1 .448 1 1zm3 0c0 .552-.447 1-1 1s-1-.448-1-1 .447-1 1-1 1 .448 1 1zm3 0c0 .552-.447 1-1 1s-1-.448-1-1 .447-1 1-1 1 .448 1 1zm2-7v-4c0-3.313-2.687-6-6-6s-6 2.687-6 6v4h-3v14h18v-14h-3zm-10-4c0-2.206 1.795-4 4-4s4 1.794 4 4v4h-8v-4zm11 16h-14v-10h14v10z"
-            />
-          </Link>
-
+          <ProjectCard
+            name="Authentication"
+            description="A more usable and secure way to authenticate"
+            path="M10 17c0 .552-.447 1-1 1s-1-.448-1-1 .447-1 1-1 1 .448 1 1zm3 0c0 .552-.447 1-1 1s-1-.448-1-1 .447-1 1-1 1 .448 1 1zm3 0c0 .552-.447 1-1 1s-1-.448-1-1 .447-1 1-1 1 .448 1 1zm2-7v-4c0-3.313-2.687-6-6-6s-6 2.687-6 6v4h-3v14h18v-14h-3zm-10-4c0-2.206 1.795-4 4-4s4 1.794 4 4v4h-8v-4zm11 16h-14v-10h14v10z"
+          />
 
 
           <ProjectCard name="Emotion Star"
@@ -55,6 +52,8 @@ export default function Home() {
 
 
 
+        <h1 className="heading text-3xl tracking-widest font-bold text-orange-300 text-center">More stuff</h1>
+        <hr className="mx-auto w-48 my-6"></hr>
 
 
       </div>
