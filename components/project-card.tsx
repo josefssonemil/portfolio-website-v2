@@ -1,13 +1,28 @@
-const ProjectCard = () => {
+const ProjectCard = (props) => {
+
     return (
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
-            <img className="w-full" src="https://images.unsplash.com/photo-1581498692102-eae0b781e672?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2690&q=80" alt="Sunset in the mountains" />
-            <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p className="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
+        <div className="card my-6 px-6 w-full overflow-hidden lg:w-5/12 xl:w-5/12 rounded shadow-lg bg-deepBlue-2">
+
+            <div className="px-6 py-4 mx-auto text-center align-middle">
+                <svg className="card-icon mx-auto text-center" xmlns="http://www.w3.org/2000/svg" width="20%" height="20%" viewBox="0 0 24 24">
+                    <path d={props.path} />
+                </svg>
             </div>
+
+            <div className="px-6 py-4 ">
+                <div className="font-bold text-2xl mb-2 text-center uppercase tracking-widest text-pBlue-2">
+                    {props.name}
+                </div>
+                <p className="text-gray-200 text-center font-medium">
+                    {props.description}
+                </p>
+
+            </div>
+
+
+
+
+
         </div>
 
     );

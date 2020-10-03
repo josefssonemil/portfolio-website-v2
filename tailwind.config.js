@@ -19,6 +19,26 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      deepBlue: {
+        1: '#1B3851',
+        2: '#294459'
+      },
+
+      pBlue: {
+        1: '#8ED1EA',
+        2: '#34C4EC',
+        3: '#35BCE4',
+      },
+
+      pGray: {
+        1: '#707793',
+        2: '#43455c',
+        3: '#3c3f58',
+        4: '#2e3047',
+      },
+
+      pGreen: '#3bba9c',
+
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',

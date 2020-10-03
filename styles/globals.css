@@ -14,3 +14,122 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.heading {
+  text-transform: uppercase;
+}
+
+
+.s-media {
+  fill: #8ED1EA;
+  filter: drop-shadow(0 0 0.1rem #34C4EC);
+}
+
+.s-media:hover {
+  fill: #34C4EC;
+  transform: scale(1.1);
+}
+
+.card {}
+
+.card:hover {
+  filter: drop-shadow(0 0 0.1rem #34C4EC);
+}
+
+.card-icon {
+  fill: #fbd38d;
+}
+
+.card-icon:hover {
+  animation: spin 2s infinite;
+  -webkit-animation: spin 2s infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.arrows {
+  width: 60px;
+  height: 72px;
+}
+
+.arrows path {
+  stroke: #2994D1;
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0
+  }
+
+  40% {
+    opacity: 1
+  }
+
+  80% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+@-webkit-keyframes arrow
+
+/*Safari and Chrome*/
+  {
+  0% {
+    opacity: 0
+  }
+
+  40% {
+    opacity: 1
+  }
+
+  80% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s;
+  /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s;
+  /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  /* Safari 和 Chrome */
+}
