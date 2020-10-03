@@ -37,7 +37,9 @@ a {
 }
 
 .card-icon {
-  fill: #fbd38d;
+  fill: #8ED1EA;
+  filter: drop-shadow(0 0 0.1rem #34C4EC);
+
 }
 
 .card-icon:hover {
