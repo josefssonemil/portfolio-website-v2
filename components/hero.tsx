@@ -5,11 +5,11 @@ const Hero = (props) => {
 
         <div className="h-screen flex flex-col justify-center mx-auto text-center">
 
-            <h2 className="text-6xl font-black tracking-widest text-white">
+            <h2 className="text-6xl font-black tracking-widest text-white font-main">
                 {props.name}
             </h2>
 
-            <h2 className="text-lg font-medium text-pBlue-2 tracking-wider">
+            <h2 className="text-lg font-medium text-pBlue-2 tracking-wider font-sub">
 
                 {props.subtitle}
             </h2>

@@ -6,6 +6,12 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+    extend: {
+      fontFamily: {
+        'sub': ['nunito', 'sans-serif'],
+        'main': ['inter', 'sans-serif']
+      },
+    },
     screens: {
       sm: '640px',
       md: '768px',
