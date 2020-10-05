@@ -1,13 +1,13 @@
 import HeroProject from "../components/hero-project";
 
-export default function Auth() {
+export default function Halo() {
     return (
 
         <div className="h-screen" style={{
             background: 'radial-gradient(circle, rgba(27,56,81,1) 4%, rgba(4,18,29,1) 100%)'
         }}>
 
-            <HeroProject header="Authenticate" subtitle="Designing an innovative, secure and usable way to authenticate" tags={["auth", "test"]} />
+            <HeroProject header="Project Halo" subtitle="A lamp designed for time-management and work-life balance" tags={["auth", "test"]} />
 
 
 
