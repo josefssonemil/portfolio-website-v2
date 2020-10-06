@@ -20,7 +20,7 @@ export default function Home() {
 
 
 
-      <div className="">
+      <div className="test">
         <Hero name="Emil Josefsson" subtitle="Interaction Designer and Software Engineer" />
 
         <div className="container mx-auto px-4 m-10">
