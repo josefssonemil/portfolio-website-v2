@@ -30,6 +30,17 @@ module.exports = {
         2: '#294459'
       },
 
+      auth: {
+        foreground: '#1C1C1C',
+        background: '#151A23',
+        text: '#F9F9F9',
+        subtext: '#e9e9e9',
+        red: '#ED2D37',
+        green: '#5B8A5E',
+        greenLime: '#A6BE3A'
+
+      },
+
       pBlue: {
         1: '#8ED1EA',
         2: '#34C4EC',
@@ -299,6 +310,9 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      '7xl': '5rem',
+      '8xl': '6rem',
+
     },
     fontWeight: {
       hairline: '100',
