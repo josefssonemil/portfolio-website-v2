@@ -12,7 +12,8 @@ const AuthHero = (props) => {
         <div className="h-screen" style={{
             backgroundImage: 'linear-gradient(0deg, rgba(21,26,35, 0.8), rgba(21,26,35, 0.8)), url(https://images.unsplash.com/photo-1519933045055-2e2d61a64bcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80)',
             backgroundPosition: 'center',
-            backgroundSize: 'cover'
+            backgroundSize: 'cover',
+            width: '100vw',
 
         }}>
 

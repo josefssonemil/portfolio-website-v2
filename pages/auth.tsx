@@ -3,16 +3,14 @@ import AuthHero from "../components/auth-hero";
 export default function Auth() {
     return (
 
-        <div className="h-screen" style={{
-            // background: 'radial-gradient(circle, rgba(28,28,28,1) 4%, rgba(24,24,24,1) 100%)'
-        }}>
+        <div className="w-screen">
 
             <AuthHero header="Authenticate" subtitle="Designing an innovative, secure and usable way to authenticate" tags={["auth", "test"]} />
 
 
             <div className="bg-auth-background -mt-24">
 
-                <div className="container mx-auto my-10 ">
+                <div className="container mx-auto my-10 p-6">
 
                     <div className="flex flex-row justify-center items-center ">
                         <div className="w-9/12 ">
@@ -156,7 +154,7 @@ export default function Auth() {
                                 Through lots of research and brainstorming sessions, we came up with the following concepts:
                             </p>
 
-                            <div className="flex flex-row justify-around">
+                            <div className="flex flex-col lg:flex-row justify-around">
 
                                 <p className="text-lg font-sub text-auth-subtext p-6">
                                     <span className="text-lg tracking-wide font-bold uppercase font-main text-auth-red"> Vibration based authentication</span>
@@ -191,14 +189,22 @@ export default function Auth() {
                     </div>
 
                     <h1 className=" font-bold text-4xl text-auth-text">
-                        Evaluating the ideas.
+                        Strategic design.
                     </h1>
 
-                    <div className="flex flex-col bg-gray-900">
+                    <p className="text-lg font-sub text-auth-subtext pt-6">
+                        Viability, desirability and feasibility are the three components of strategic design. To make sure our
+                        ideas were strategically solid, we sought to better understand these dimensions. At this stage, we quickly
+                        analyzed these three dimensions to build upon for the next iteration.<br></br> ADD IMAGE HERE.
 
-                    </div>
+                    </p>
+
+                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red my-10">Prototype Phase one</h1>
+
 
                 </div>
+
+
             </div>
         </div>
 
