@@ -11,20 +11,20 @@ import Footer from '../components/footer'
 export default function Home() {
   return (
 
-    <div className="">
+    <div className="bg-auth-background">
 
       <Head>
         <title>Emil Josefsson</title>
 
       </Head>
 
+      <Hero name="Emil Josefsson" subtitle="I design and develop front-end experiences." />
 
 
-      <div className="test">
-        <Hero name="Emil Josefsson" subtitle="Interaction Designer and Software Engineer" />
+      <div className=" ">
 
-        <div className="container mx-auto px-4 m-10">
-          <h1 className="heading text-3xl tracking-widest font-bold text-orange-300 text-center font-main">Projects</h1>
+        <div className="container mx-auto px-4">
+          <h1 className="heading text-3xl tracking-widest font-bold text-auth-text text-center font-main mt-24">Projects</h1>
           <hr className="mx-auto w-48 my-6"></hr>
 
 
@@ -69,7 +69,7 @@ export default function Home() {
 
 
 
-          <h1 className="heading text-3xl tracking-widest font-bold text-orange-300 text-center font-main mt-24">About me</h1>
+          <h1 className="heading text-3xl tracking-widest font-bold text-auth-text text-center font-main mt-24">About me</h1>
           <hr className="mx-auto w-48 my-6"></hr>
 
           <p className="text-lg font-sub text-white">
@@ -87,17 +87,17 @@ export default function Home() {
 
 
 
-          <h1 className="heading text-3xl tracking-widest font-bold text-orange-300 text-center font-main mt-24">More</h1>
+          <h1 className="heading text-3xl tracking-widest font-bold text-auth-text text-center font-main mt-24">See More</h1>
           <hr className="mx-auto w-48 my-6"></hr>
 
 
           <h1 className="text-2xl font-sub text-white text-center">
-            You can find more of my work at <a className="text-pBlue-3 font-bold" href="https://www.behance.net/emiljosefsson" target="_blank">Behance</a> and <a className="text-pBlue-3 font-bold" href="https://www.github.com/josefssonemil" target="_blank">Github</a>.
+            You can find more of my work at <a className="text-auth-red font-bold" href="https://www.behance.net/emiljosefsson" target="_blank">Behance</a> and <a className="text-auth-red font-bold" href="https://www.github.com/josefssonemil" target="_blank">Github</a>.
             </h1>
 
 
           <h1 className="text-2xl font-sub text-white text-center">
-            Contact me @ <a className="text-pBlue-3 font-bold" href="mailto:emil.josefsson97@gmail.com" target="_blank">e-mail</a> or <a className="text-pBlue-3 font-bold" href="https://www.linkedin.com/in/emil-josefsson-23856b15a/" target="_blank">LinkedIn</a>.
+            Contact me @ <a className="text-auth-red font-bold" href="mailto:emil.josefsson97@gmail.com" target="_blank">e-mail</a> or <a className="text-auth-red font-bold" href="https://www.linkedin.com/in/emil-josefsson-23856b15a/" target="_blank">LinkedIn</a>.
             </h1>
 
           <h3 className="text-xl text-center font-sub text-white">This website is a work in progress.</h3>

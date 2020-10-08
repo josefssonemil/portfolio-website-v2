@@ -11,6 +11,8 @@ body {
 
 }
 
+.flip {}
+
 .test {
   background: radial-gradient(circle, rgba(27, 56, 81, 1) 4%, rgba(4, 18, 29, 1) 100%);
 }
@@ -30,8 +32,9 @@ a {
 
 
 .s-media {
-  fill: #8ED1EA;
-  filter: drop-shadow(0 0 0.1rem #34C4EC);
+  /* fill: #8ED1EA; */
+  fill: #ED2D37;
+  /* filter: drop-shadow(0 0 0.1rem #34C4EC); */
 }
 
 .s-media:hover {
@@ -42,12 +45,11 @@ a {
 .card {}
 
 .card:hover {
-  filter: drop-shadow(0 0 0.1rem #34C4EC);
+  filter: drop-shadow(0 0 0.1rem #ED2D37);
 }
 
 .card-icon {
-  fill: #8ED1EA;
-  filter: drop-shadow(0 0 0.1rem #34C4EC);
+  fill: #ED2D37;
 
 }
 
@@ -81,7 +83,7 @@ a {
 }
 
 .arrows path {
-  stroke: #2994D1;
+  stroke: #ED2D37;
   fill: transparent;
   stroke-width: 1px;
   animation: arrow 2s infinite;

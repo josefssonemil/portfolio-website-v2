@@ -199,9 +199,12 @@ export default function Auth() {
 
                     </p>
 
-                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red my-10">Prototype Phase one</h1>
+                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-10">Prototype Phase one</h1>
 
 
+                    <h1 className=" font-bold text-4xl text-auth-text">
+                        Strategic design.
+                    </h1>
                 </div>
 
 
