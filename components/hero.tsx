@@ -7,7 +7,7 @@ const Hero = (props) => {
             <div className="flex flex-col md:flex-row justify-center mx-auto pt-48 pb-24">
 
 
-                <div className="p-6">
+                <div className="p-6 ">
                     <h2 className="text-3xl text-center lg:text-6xl lg:text-left font-black tracking-widest text-auth-text font-main">
                         Hi there.<br></br> I'm <span className="text-auth-red">E</span>mil <span className="text-auth-red">J</span>osefsson.
                  </h2>
@@ -44,11 +44,17 @@ const Hero = (props) => {
 
 
                 <div className="lg:w-1/3 w-full">
-                    <svg height="100%" width="100%" className="">
-                        <circle cx="120" cy="120" r="100" fill="#ED2D37" fill-opacity="0.8" />
-                        <circle cx="220" cy="220" r="100" fill="#ED2D37" fill-opacity="0.6" />
-                        <circle cx="260" cy="120" r="100" fill="#ED2D37" fill-opacity="0.6" />
+
+                    <svg viewBox="0 0 160 160" width="75%" height="75%">
+                        <circle cx="80" cy="80" r="50" fill="#ED2D37" />
+                        <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+                            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="#FFF">
+                                <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="1s" repeatCount="indefinite" />
+                            </path>
+                        </g>
+                        <path fill="#ED2D37" d="M 50,0 A 50,50 0 0,0 -50,0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" />
                     </svg>
+
                 </div>
 
 
