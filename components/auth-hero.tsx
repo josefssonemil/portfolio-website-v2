@@ -19,7 +19,7 @@ const AuthHero = (props) => {
             <div className="h-screen flex flex-row justify-start mx-auto">
 
                 <div className="flex flex-col justify-center mx-auto w-6/12 ">
-                    <h1 className="sm:text-4xl md:text-4xl lg:text-6xl xl:text-6xl text-auth-subtext font-bold font-main uppercase text-right">
+                    <h1 className="text-4xl lg:text-6xl text-auth-subtext font-bold font-main uppercase text-right">
                         Card-based payments<span className="text-auth-red font-bold">.</span>  Secured<span className="text-auth-red font-bold">.</span>
                     </h1>
 

@@ -9,7 +9,7 @@ const Hero = (props) => {
 
                 <div className="p-6">
                     <h2 className="text-3xl text-center lg:text-6xl lg:text-left font-black tracking-widest text-auth-text font-main">
-                        Hi there.<br></br> I'm Emil Josefsson.
+                        Hi there.<br></br> I'm <span className="text-auth-red">E</span>mil <span className="text-auth-red">J</span>osefsson.
                  </h2>
 
                     <h2 className="text-md lg:text-lg text-center lg:text-left font-medium text-auth-text tracking-wider font-sub">

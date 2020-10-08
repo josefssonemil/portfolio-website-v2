@@ -12,11 +12,11 @@ export default function Auth() {
 
                 <div className="container mx-auto my-10 p-6">
 
-                    <div className="flex flex-row justify-center items-center ">
+                    <div className="flex lg:flex-row flex-col justify-center items-center ">
                         <div className="w-9/12 ">
                             <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red">Why?</h1>
 
-                            <h1 className=" font-bold text-4xl text-auth-text">
+                            <h1 className="font-bold text-3xl lg:text-4xl text-auth-text">
                                 Pin authentication does not authorize you. It just
                                 authorizes whoever knows your pin code.
                             </h1>
@@ -203,8 +203,34 @@ export default function Auth() {
 
 
                     <h1 className=" font-bold text-4xl text-auth-text">
-                        Strategic design.
+                        Creating the prototypes.
                     </h1>
+
+                    <p className="text-lg font-sub text-auth-subtext pt-6">
+                        The prototypes were rough and dirty, quickly created in Figma. For each prototype,
+                        we designed a storyboard containing either wireframes or illustrations to show the interaction with
+                        some additional explanatory text.
+
+                        ADD MORE TEXT AND IMAGES HERE.
+
+                    </p>
+
+
+                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-10">Prototype Phase two</h1>
+
+
+                    <h1 className=" font-bold text-4xl text-auth-text">
+                        Creating the prototypes.
+                    </h1>
+
+                    <p className="text-lg font-sub text-auth-subtext pt-6">
+                        The prototypes were rough and dirty, quickly created in Figma. For each prototype,
+                        we designed a storyboard containing either wireframes or illustrations to show the interaction with
+                        some additional explanatory text.
+
+                        ADD MORE TEXT AND IMAGES HERE.
+
+                    </p>
                 </div>
 
 
