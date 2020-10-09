@@ -2,7 +2,7 @@
 const Hero = (props) => {
 
     return (
-        <div className="bg-auth-foreground">
+        <div className="bg-auth-background">
 
             <div className="flex flex-col md:flex-row justify-center mx-auto pt-48 pb-24">
 
@@ -45,7 +45,7 @@ const Hero = (props) => {
 
                 <div className="lg:w-1/3 w-full">
 
-                    <svg viewBox="0 0 160 160" width="75%" height="75%">
+                    <svg className="mx-auto" viewBox="0 0 160 160" width="75%" height="75%">
                         <circle cx="80" cy="80" r="50" fill="#ED2D37" />
                         <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
                             <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="#FFF">
@@ -61,16 +61,19 @@ const Hero = (props) => {
             </div>
 
 
-            <svg className="arrows mx-auto m-8">
+            {/* <svg className="arrows mx-auto m-8">
                 <path className="a1" d="M0 0 L30 32 L60 0"></path>
                 <path className="a2" d="M0 20 L30 52 L60 20"></path>
                 <path className="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg> */}
+
+
+
+            <svg viewBox="0 0 1440 388" fill="#ED2D37" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1440 258L1392 284.7C1344 311 1248 365 1152 359.3C1056 354 960 290 864 295.3C768 301 672 375 576 386C480 397 384 343 288 316.7C192 290 96 290 48 290L8.52006e-06 290L1.69126e-05 194L48 194C96 194 192 194 288 194C384 194 480 194 576 194C672 194 768 194 864 194C960 194 1056 194 1152 194C1248 194 1344 194 1392 194L1440 194L1440 258Z" />
+                <path d="M0 130L48 103.3C96 77 192 23 288 28.7C384 34 480 98 576 92.7C672 87 768 13 864 1.99998C960 -9.00002 1056 45 1152 71.3C1248 98 1344 98 1392 98H1440V194H1392C1344 194 1248 194 1152 194C1056 194 960 194 864 194C768 194 672 194 576 194C480 194 384 194 288 194C192 194 96 194 48 194H0V130Z" />
             </svg>
 
-
-
-            <svg className="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#151A23" fill-opacity="1" d="M0,192L40,208C80,224,160,256,240,234.7C320,213,400,139,480,101.3C560,64,640,64,720,85.3C800,107,880,149,960,154.7C1040,160,1120,128,1200,117.3C1280,107,1360,117,1400,122.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
-            </svg>
 
 
         </div>

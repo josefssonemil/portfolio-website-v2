@@ -28,7 +28,7 @@ export default function Auth() {
                         </div>
 
                         <div className="">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#ED2D37" stroke-width="0.2" width="100%" height="100%" viewBox="0 0 24 24"><path d="M22 4h-20c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h20c1.104 0 2-.896 2-2v-12c0-1.104-.896-2-2-2zm-19 5.78c0-.431.349-.78.78-.78h.428v1.125h-1.208v-.345zm0 .764h1.208v.968h-1.208v-.968zm0 1.388h1.208v1.068h-.428c-.431 0-.78-.349-.78-.78v-.288zm3 5.068h-3v-1h3v1zm1-4.78c0 .431-.349.78-.78.78h-.429v-1.068h1.209v.288zm0-.708h-1.209v-.968h1.209v.968zm0-1.387h-1.629v2.875h-.743v-4h1.592c.431 0 .78.349.78.78v.345zm4 6.875h-3v-1h3v1zm1-6.5c0-1.381 1.119-2.5 2.5-2.5.484 0 .937.138 1.32.377-.531.552-.857 1.3-.857 2.123 0 .824.327 1.571.857 2.123-.383.239-.836.377-1.32.377-1.381 0-2.5-1.119-2.5-2.5zm4 6.5h-3v-1h3v1zm5 0h-3v-1h3v1zm-2.5-4c-1.38 0-2.5-1.119-2.5-2.5s1.12-2.5 2.5-2.5c1.381 0 2.5 1.119 2.5 2.5s-1.119 2.5-2.5 2.5z" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#ED2D37" stroke-width="0.2" width="80%" height="80%" viewBox="0 0 24 24"><path d="M22 4h-20c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h20c1.104 0 2-.896 2-2v-12c0-1.104-.896-2-2-2zm-19 5.78c0-.431.349-.78.78-.78h.428v1.125h-1.208v-.345zm0 .764h1.208v.968h-1.208v-.968zm0 1.388h1.208v1.068h-.428c-.431 0-.78-.349-.78-.78v-.288zm3 5.068h-3v-1h3v1zm1-4.78c0 .431-.349.78-.78.78h-.429v-1.068h1.209v.288zm0-.708h-1.209v-.968h1.209v.968zm0-1.387h-1.629v2.875h-.743v-4h1.592c.431 0 .78.349.78.78v.345zm4 6.875h-3v-1h3v1zm1-6.5c0-1.381 1.119-2.5 2.5-2.5.484 0 .937.138 1.32.377-.531.552-.857 1.3-.857 2.123 0 .824.327 1.571.857 2.123-.383.239-.836.377-1.32.377-1.381 0-2.5-1.119-2.5-2.5zm4 6.5h-3v-1h3v1zm5 0h-3v-1h3v1zm-2.5-4c-1.38 0-2.5-1.119-2.5-2.5s1.12-2.5 2.5-2.5c1.381 0 2.5 1.119 2.5 2.5s-1.119 2.5-2.5 2.5z" /></svg>
                         </div>
 
                     </div>
@@ -131,7 +131,13 @@ export default function Auth() {
 
 
 
-
+                    <div className="my-24">
+                        <svg className="mx-auto" width="100%" height="100%" fill="#ED2D37" opacity="0.8">
+                            <circle cx="47%" cy="60" r="10"></circle>
+                            <circle cx="50%" cy="60" r="10"></circle>
+                            <circle cx="53%" cy="60" r="10"></circle>
+                        </svg>
+                    </div>
 
                     <div className="flex flex-row justify-start items-center pl-2">
                         <div className="w-full ">
@@ -192,44 +198,150 @@ export default function Auth() {
                         Strategic design.
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext pt-6">
+                    <p className="text-lg font-sub text-auth-subtext py-6">
                         Viability, desirability and feasibility are the three components of strategic design. To make sure our
                         ideas were strategically solid, we sought to better understand these dimensions. At this stage, we quickly
-                        analyzed these three dimensions to build upon for the next iteration.<br></br> ADD IMAGE HERE.
-
+                        analyzed these three dimensions to build upon for the next iteration.<br></br>
                     </p>
 
-                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-10">Prototype Phase one</h1>
+                    <h1 className=" font-bold text-4xl text-auth-text pt-12">
+                        Formative Research.
+                    </h1>
+
+                    <p className="text-lg font-sub text-auth-subtext py-6">
+                        We used Google Scholar to research the area and our chosen ideas and concepts.
+                        Summarized, our findings included that usability was a problematic area
+                        within user authentication methods and that security and usability didn't go well together hand in hand.
+                        We found research in human-centred authentication guidelines, as well as research papers within each
+                        idea, such as user proximity to their smartphone and designing authentication systems in AR.
+                    </p>
+
+                    <h1 className=" font-bold text-4xl text-auth-text pt-12">
+                        Results.
+                    </h1>
+
+                    <p className="text-lg font-sub text-auth-subtext py-6">
+                        The result was a <a className="font-bold text-auth-red hover:text-pBlue-2" href="https://www.behance.net/gallery/105053289/Strategy-Deck-Mobile-Computing" target="_blank">strategy deck </a>to be the basis for our project.
+                        All sources can be found here.
+                    </p>
+
+
+                    <div className="my-24">
+                        <svg className="mx-auto" width="100%" height="100%" fill="#ED2D37" opacity="0.8">
+                            <circle cx="47%" cy="60" r="10"></circle>
+                            <circle cx="50%" cy="60" r="10"></circle>
+                            <circle cx="53%" cy="60" r="10"></circle>
+                        </svg>
+                    </div>
+
+
+
+                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-24">Prototype Phase one - desirability</h1>
+
+
+                    <h1 className=" font-bold text-4xl text-auth-text">
+                        Concretization.
+                    </h1>
+
+                    <p className="text-lg font-sub text-auth-subtext py-6">
+                        Based upon our <a className="font-bold text-auth-red hover:text-pBlue-2" href="https://www.behance.net/gallery/105053289/Strategy-Deck-Mobile-Computing" target="_blank">strategy deck</a>,
+                        we refined and defined our three ideas into something concrete. In practice, this means that we
+                        went from conceptualization to concretization to put our ideas in to a prototype that could be tested.
+                        For each idea, we specified exactly what type of interaction we sought to explore.
+                    </p>
 
 
                     <h1 className=" font-bold text-4xl text-auth-text">
                         Creating the prototypes.
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext pt-6">
+                    <p className="text-lg font-sub text-auth-subtext py-6">
                         The prototypes were rough and dirty, quickly created in Figma. For each prototype,
                         we designed a storyboard containing either wireframes or illustrations to show the interaction with
-                        some additional explanatory text.
+                        some additional explanatory text. The storyboards were based on the use cases we derived.
 
-                        ADD MORE TEXT AND IMAGES HERE.
+                        ADD IMAGES HERE?
 
                     </p>
 
+                    <h1 className=" font-bold text-4xl text-auth-text">
+                        Evaluating the prototypes.
+                    </h1>
 
-                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-10">Prototype Phase two</h1>
+                    <p className="text-lg font-sub text-auth-subtext py-6">
+                        Our prototypes were evaluated using a mixture between a questionnaire and an interview. (ADD)
+
+                    </p>
+
+                    <h1 className=" font-bold text-4xl text-auth-text">
+                        Results.
+                    </h1>
+
+                    <p className="text-lg font-sub text-auth-subtext py-6">
+                        The result was a <a className="font-bold text-auth-red hover:text-pBlue-2" href="https://www.behance.net/gallery/105760889/Construction-and-evaluation-of-three-prototypes" target="_blank">deck </a> describing the concretization and evaluation of our ideas.
+                        The deck also includes more detailed descriptions of what was done.
+                    </p>
+
+
+                    <div className="my-24">
+                        <svg className="mx-auto" width="100%" height="100%" fill="#ED2D37" opacity="0.8">
+                            <circle cx="47%" cy="60" r="10"></circle>
+                            <circle cx="50%" cy="60" r="10"></circle>
+                            <circle cx="53%" cy="60" r="10"></circle>
+                        </svg>
+                    </div>
+
+                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-24">Prototype Phase two - feasibility</h1>
 
 
                     <h1 className=" font-bold text-4xl text-auth-text">
-                        Creating the prototypes.
+                        Why feasibility?
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext pt-6">
-                        The prototypes were rough and dirty, quickly created in Figma. For each prototype,
-                        we designed a storyboard containing either wireframes or illustrations to show the interaction with
-                        some additional explanatory text.
+                    <p className="text-lg font-sub text-auth-subtext py-6">
+                        Having explored desirability in the first prototype phase, we felt that we needed to explore feasibility
+                        for our remaining prototypes. In a limited time scope, we needed to make sure that we could actually
+                        implement the desired functionality. Here, we didn't focus on the design and the interaction at all. We just
+                        wanted to quickly build and mock up the required functionality.
+                    </p>
 
-                        ADD MORE TEXT AND IMAGES HERE.
+                    <h1 className=" font-bold text-4xl text-auth-text">
+                        Technical constraints.
+                    </h1>
 
+                    <p className="text-lg font-sub text-auth-subtext py-6">
+                        We listed the technical core that would have to work in order for the interaction work from a technical perspective.
+                    </p>
+
+                    <p className="text-lg font-sub text-auth-subtext">
+                        <span className="font-bold text-auth-red text-2xl">1.</span> Decide upon sensors to use in the device
+                    </p>
+
+                    <p className="text-lg font-sub text-auth-subtext">
+                        <span className="font-bold text-auth-red text-2xl">2.</span> Does our current choice of implementation tools support using the sensors?
+                    </p>
+
+                    <p className="text-lg font-sub text-auth-subtext">
+                        <span className="font-bold text-auth-red text-2xl">3.</span> Difficulty; are we proficient enough in programming to do the actual implementation?
+                    </p>
+
+                    <h1 className=" font-bold text-4xl text-auth-text py-6">
+                        Technical evaluation.
+                    </h1>
+                    <p className="text-lg font-sub text-auth-subtext">
+                        <span className="font-bold text-auth-red text-2xl">1.</span> For the sound proximity prototype,
+                        we needed Bluetooth/GPS (for sensing proximity), speakers (for outputting frequency) and microphone (for reading frequency).
+                    </p>
+
+                    <p className="text-lg font-sub text-auth-subtext">
+                        <span className="font-bold text-auth-red text-2xl">2.</span> Since we used Kotlin which guaranteed us Android Native Code,
+                        we had full access to the three sensors needed.
+                    </p>
+
+                    <p className="text-lg font-sub text-auth-subtext">
+                        <span className="font-bold text-auth-red text-2xl">3.</span> In this step, we created the prototype. Essentially, we wanted to test
+                        whether we could get a Bluetooth connection between two devices (or measure distance by GPS), test if we could output sound at a particular frequency
+                        and if we could read and confirm that frequency.
                     </p>
                 </div>
 
