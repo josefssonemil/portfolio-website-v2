@@ -43,21 +43,21 @@ export default function Home() {
 
             <ProjectCard
               name="Emotion Star"
-              description="Singstar, but with face expressions"
+              description="Singstar, but with face expressions (page in progress)"
               url="https://i.imgur.com/ngOS6T3.png"
               href="/facial"
             />
 
             <ProjectCard
               name="Project Halo"
-              description="Lamp for work-life balance"
+              description="Lamp for work-life balance (page in progress)"
               url="https://images.unsplash.com/photo-1572264731998-3f0ce0d31766?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80"
               href="/halo"
             />
 
             <ProjectCard
               name="Kuggen"
-              description="Game for children with autism"
+              description="Game for children with autism (page in progress)"
               url="https://images.unsplash.com/photo-1560574188-6a6774965120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
               href="/kuggen"
 
