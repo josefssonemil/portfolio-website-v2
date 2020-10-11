@@ -11,11 +11,32 @@ body {
 
 }
 
-.flip {}
-
 .test {
-  background: radial-gradient(circle, rgba(27, 56, 81, 1) 4%, rgba(4, 18, 29, 1) 100%);
+  left: 50%;
+  margin-left: 25%;
+
+
 }
+
+.clipper {
+
+  display: block;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  object-fit: cover;
+
+  opacity: 0.5;
+}
+
+.clipper:hover {
+  opacity: 1;
+}
+
+
+.red-shadow {
+  filter: drop-shadow(0px 0px 10px rgba(255, 0, 0, 0.25));
+
+}
+
 
 a {
   color: inherit;
