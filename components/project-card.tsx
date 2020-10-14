@@ -21,16 +21,12 @@ const ProjectCard = (props: Props) => {
 
 
 
-            <div className="flex flex-col lg:flex-row justify-center">
+            <div className="flex flex-col lg:flex-row justify-around bg-auth-background shadow-2xl">
 
                 <div className="flex flex-col lg:flex-row items-center ">
-                    <div className="px-12 invisible lg:visible ">
-                        <svg width="47" height="54" viewBox="0 0 47 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M47 27L0.499997 53.8468L0.5 0.15321L47 27Z" fill="#ED2D37" />
-                        </svg>
-                    </div>
 
-                    <div className="text-center lg:text-left">
+
+                    <div className="p-6 text-center lg:text-left">
                         <h1 className="text-5xl font-bold text-auth-text">{props.name}</h1>
                         <h1 className="text-2xl text-auth-subtext">{props.description}</h1>
 
@@ -52,7 +48,7 @@ const ProjectCard = (props: Props) => {
                 </div>
 
 
-                <div className="pt-12 w-8/12 lg:mx-0 mx-auto">
+                <div className="pt-12  w-full lg:w-8/12 lg:mx-0 mx-auto my-auto">
                     <img className="clipper h-64 w-full" src={props.url}>
                     </img>
                 </div>

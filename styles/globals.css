@@ -34,12 +34,10 @@ body {
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   object-fit: cover;
 
-  opacity: 0.5;
+
 }
 
-.clipper:hover {
-  opacity: 1;
-}
+
 
 
 .red-shadow {

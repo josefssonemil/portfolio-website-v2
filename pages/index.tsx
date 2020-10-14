@@ -33,9 +33,9 @@ export default function Home() {
 
 
             <ProjectCard
-              name="Authentication"
-              description="Designing new ways for user authentication"
-              url="https://images.unsplash.com/photo-1504203700686-f21e703e5f1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2261&q=80"
+              name="Proxpay"
+              description="Securing card-based payments"
+              url="https://i.imgur.com/0n6dsGs.png"
               href="/auth"
             />
 
@@ -71,10 +71,7 @@ export default function Home() {
           <hr className="mx-auto w-48 my-6"></hr>
 
           <div className="flex flex-row justify-evenly">
-            <SkillCard />
-            <SkillCard />
-            <SkillCard />
-
+            in progress
 
           </div>
 
