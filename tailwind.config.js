@@ -35,9 +35,10 @@ module.exports = {
         background: '#151A23',
         text: '#F9F9F9',
         subtext: '#e9e9e9',
-        red: '#ED2D37',
+        red: '#F6A61D',
         green: '#5B8A5E',
-        greenLime: '#A6BE3A'
+        greenLime: '#A6BE3A',
+        blue: '#171B34'
 
       },
 

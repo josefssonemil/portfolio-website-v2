@@ -6,6 +6,7 @@ import ProjectCard from '../components/project-card'
 
 import Link from 'next/link'
 import Footer from '../components/footer'
+import SkillCard from '../components/skill-card'
 
 
 export default function Home() {
@@ -66,6 +67,16 @@ export default function Home() {
 
           </div>
 
+          <h1 className="heading text-3xl tracking-widest font-bold text-auth-text text-center font-main mt-24">Skills</h1>
+          <hr className="mx-auto w-48 my-6"></hr>
+
+          <div className="flex flex-row justify-evenly">
+            <SkillCard />
+            <SkillCard />
+            <SkillCard />
+
+
+          </div>
 
 
 

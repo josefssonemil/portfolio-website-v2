@@ -3,12 +3,12 @@ import AuthHero from "../components/auth-hero";
 export default function Auth() {
     return (
 
-        <div className="w-screen">
+        <div className="">
 
             <AuthHero header="Authenticate" subtitle="Designing an innovative, secure and usable way to authenticate" tags={["auth", "test"]} />
 
 
-            <div className="bg-auth-background -mt-24">
+            <div className="bg-auth-background -mt-12">
 
                 <div className="container mx-auto my-10 p-6">
 
@@ -28,10 +28,79 @@ export default function Auth() {
                         </div>
 
                         <div className="">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#ED2D37" stroke-width="0.2" width="80%" height="80%" viewBox="0 0 24 24"><path d="M22 4h-20c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h20c1.104 0 2-.896 2-2v-12c0-1.104-.896-2-2-2zm-19 5.78c0-.431.349-.78.78-.78h.428v1.125h-1.208v-.345zm0 .764h1.208v.968h-1.208v-.968zm0 1.388h1.208v1.068h-.428c-.431 0-.78-.349-.78-.78v-.288zm3 5.068h-3v-1h3v1zm1-4.78c0 .431-.349.78-.78.78h-.429v-1.068h1.209v.288zm0-.708h-1.209v-.968h1.209v.968zm0-1.387h-1.629v2.875h-.743v-4h1.592c.431 0 .78.349.78.78v.345zm4 6.875h-3v-1h3v1zm1-6.5c0-1.381 1.119-2.5 2.5-2.5.484 0 .937.138 1.32.377-.531.552-.857 1.3-.857 2.123 0 .824.327 1.571.857 2.123-.383.239-.836.377-1.32.377-1.381 0-2.5-1.119-2.5-2.5zm4 6.5h-3v-1h3v1zm5 0h-3v-1h3v1zm-2.5-4c-1.38 0-2.5-1.119-2.5-2.5s1.12-2.5 2.5-2.5c1.381 0 2.5 1.119 2.5 2.5s-1.119 2.5-2.5 2.5z" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#F6A61D" stroke-width="0.2" width="80%" height="80%" viewBox="0 0 24 24"><path d="M22 4h-20c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h20c1.104 0 2-.896 2-2v-12c0-1.104-.896-2-2-2zm-19 5.78c0-.431.349-.78.78-.78h.428v1.125h-1.208v-.345zm0 .764h1.208v.968h-1.208v-.968zm0 1.388h1.208v1.068h-.428c-.431 0-.78-.349-.78-.78v-.288zm3 5.068h-3v-1h3v1zm1-4.78c0 .431-.349.78-.78.78h-.429v-1.068h1.209v.288zm0-.708h-1.209v-.968h1.209v.968zm0-1.387h-1.629v2.875h-.743v-4h1.592c.431 0 .78.349.78.78v.345zm4 6.875h-3v-1h3v1zm1-6.5c0-1.381 1.119-2.5 2.5-2.5.484 0 .937.138 1.32.377-.531.552-.857 1.3-.857 2.123 0 .824.327 1.571.857 2.123-.383.239-.836.377-1.32.377-1.381 0-2.5-1.119-2.5-2.5zm4 6.5h-3v-1h3v1zm5 0h-3v-1h3v1zm-2.5-4c-1.38 0-2.5-1.119-2.5-2.5s1.12-2.5 2.5-2.5c1.381 0 2.5 1.119 2.5 2.5s-1.119 2.5-2.5 2.5z" /></svg>
                         </div>
 
                     </div>
+
+                    <div className="">
+                        <h1 className="font-bold text-3xl lg:text-4xl text-auth-text">
+                            Your payments don't change.
+                        </h1>
+
+                        <div className="flex flex-row justify-start pt-10">
+                            <div className="flex flex-col">
+                                <svg className="mx-auto px-6" xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#F6A61D" stroke-width="0.2" width="80%" height="80%" viewBox="0 0 24 24">
+                                    <path d="M4.062 16.626c-.165-.5.038-.921.656-1.145l3.249-1.155-.134 1.028c-.077.589-.103 1.107-.089 1.573-.25.078-1.095.339-1.945.552-.871.218-1.538-.25-1.737-.853zm1.745 1.916c-.461.167-.612.48-.489.854.147.449.645.798 1.294.635.606-.151 1.408-.396 1.701-.487-.203-.505-.378-1.035-.479-1.659l-2.027.657zm.193-10.542h2.643l.128-1h-2.771v1zm16-6v9c0 1.104-.896 2-2 2h-1.989l.015.02c-.031.43-.105.906-.222 1.457-.451 2.144-1.637 5.122-.83 8.418-2.312.356-3.651.523-5.992 1.105-.273-4.062-2.266-4.943-1.804-8.47.542-4.137.844-6.461 1.196-9.255.11-.879.731-1.307 1.337-1.307.631 0 1.246.464 1.252 1.366.021 3.303.108 6.593.324 7.393.146.54 1.087.638 1.087-.512l-.002-2.216h5.128c.276 0 .5-.224.5-.5v-4.499h-5.568c-.157-1.461-1.27-2.531-2.721-2.531h-.001c-1.44 0-2.578 1.038-2.806 2.531h-4.904v4.5c0 .276.224.5.5.5h3.757l-.261 2h-3.996c-1.104 0-2-.896-2-2v-9c0-1.104.896-2 2-2h16c1.104 0 2 .896 2 2zm-2 .5c0-.276-.224-.5-.5-.5h-15c-.276 0-.5.224-.5.5v.5h16v-.5zm-14 7.5h2.386l.129-1h-2.515v1zm12-3h-3v1h3v-1z" />                                    </svg>
+                                <h1 className="text-2xl font-medium text-auth-text text-center">Initiate payment with card</h1>
+                            </div>
+
+                            <svg className="my-auto" xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#F6A61D" stroke-width="0.2" width="8%" height="8%" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
+
+                            <div className="flex flex-col">
+                                <svg className="mx-auto px-6" xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#F6A61D" stroke-width="0.2" width="80%" height="80%" viewBox="0 0 24 24"><path d="M12.729 15.415c.508 0 1.303.372 1.695.639l-2.131-5.413c-.464-1.177 1.301-1.828 1.75-.688l1.443 3.661c.167.424.808.173.641-.252l-.355-.903c.315-.001.751-.055 1.055.021.197.049.354.151.434.358l.292.74c.166.422.805.171.641-.252l-.337-.855c.426-.017.73-.03 1.01.04.199.05.36.153.441.361l.248.628c.162.425.805.174.641-.251l-.279-.705c.236.016.442.036.627.082.523.131.884.468 1.28 1.477.788 2.001.208 2.896 1.001 4.91l-5.201 1.987c-2.064-2.522-4.494-3.269-5.144-3.682-1.283-.82-.765-1.903.248-1.903zm-1.291-5.26c-.055-.709.369-1.338 1.039-1.602.659-.262 1.403-.098 1.851.464-.05-1.118-1.185-1.865-2.24-1.453-1.051.415-1.377 1.737-.65 2.591zm-.084 3.514l-.263-.669h-9.091v-8h20v6.05c.902.564 1.371 1.477 1.685 2.271.135.341.234.658.315.958v-11.279h-24v12h10.008c.284-.583.753-1.05 1.346-1.331zm-4.354-4.669c0 .552.447 1 1 1s1-.448 1-1-.447-1-1-1-1 .448-1 1zm-3 0c0 .552.447 1 1 1s1-.448 1-1-.447-1-1-1-1 .448-1 1z" /></svg>
+                                <h1 className="text-2xl font-medium text-auth-text text-center">Authenticate with pin code</h1>
+
+                            </div>
+                            <svg className="my-auto" xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#F6A61D" stroke-width="0.2" width="8%" height="8%" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
+
+                            <div className="flex flex-col">
+                                <svg className="mx-auto px-6" xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#F6A61D" stroke-width="0.2" width="80%" height="80%" viewBox="0 0 24 24">
+
+                                    <path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm7 7.457l-9.005 9.565-4.995-5.865.761-.649 4.271 5.016 8.24-8.752.728.685z" /></svg>
+                                <h1 className="text-2xl font-medium text-auth-text text-center">Payment complete</h1>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+                    <h1 className="font-bold text-3xl lg:text-4xl text-auth-text pt-12">
+                        But measures for stealing your card will.
+                        </h1>
+
+                    <p className="text-lg font-sub text-auth-subtext pt-4">
+                        Security measures under the hood maintains your integrity and safety.
+                            </p>
+
+                    <div className="flex flex-row justify-around  mt-6">
+                        <div className="flex flex-col w-1/4">
+                            <svg className="mx-auto px-6" xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#F6A61D" stroke-width="0.2" width="80%" height="80%" viewBox="0 0 24 24">
+                                <path d="M15 12c0-1.657-1.344-3-3-3s-3 1.343-3 3c0 1.304.838 2.403 2 2.816v9.184h2v-9.184c1.162-.413 2-1.512 2-2.816zm-8.282 0c0-1.791.887-3.397 2.282-4.498l-1.481-1.502c-1.86 1.467-3.04 3.608-3.04 6s1.18 4.533 3.04 6l1.481-1.502c-1.396-1.101-2.282-2.707-2.282-4.498zm9.763-6l-1.481 1.502c1.396 1.101 2.282 2.707 2.282 4.498s-.886 3.397-2.282 4.498l1.481 1.502c1.86-1.467 3.04-3.608 3.04-6s-1.179-4.533-3.04-6zm7.519 6c0 5.589-3.827 10.272-9 11.606v-2.068c4.053-1.277 7-5.069 7-9.539 0-5.514-4.486-10-10-10s-10 4.487-10 10.001c0 4.469 2.948 8.261 7 9.539v2.068c-5.172-1.335-9-6.018-9-11.607 0-6.627 5.373-12 12-12s12 5.373 12 12z" />
+                            </svg>
+                            <h1 className="text-xl font-medium text-auth-text text-center uppercase tracking-widest pt-6">Audio frequencies</h1>
+                            <p className="text-auth-subtext text-lg">
+                                Your card and phone will submit and receive a specific audio frequency to initiate link process to make sure that
+                                proximity is valid.
+                            </p>
+                        </div>
+
+                        <div className="flex flex-col w-1/4">
+                            <svg className="mx-auto px-6" xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#F6A61D" stroke-width="0.2" width="80%" height="80%" viewBox="0 0 24 24">
+
+                                <path d="M18 0c-3.148 0-6 2.553-6 5.702 0 4.682 4.783 5.177 6 12.298 1.217-7.121 6-7.616 6-12.298 0-3.149-2.852-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm-12-3c-2.099 0-4 1.702-4 3.801 0 3.121 3.188 3.451 4 8.199.812-4.748 4-5.078 4-8.199 0-2.099-1.901-3.801-4-3.801zm0 5.333c-.737 0-1.333-.597-1.333-1.333s.596-1.333 1.333-1.333 1.333.596 1.333 1.333-.596 1.333-1.333 1.333zm6 5.775l-3.215-1.078c.365-.634.777-1.128 1.246-1.687l1.969.657 1.92-.64c.388.521.754 1.093 1.081 1.75l-3.001.998zm12 7.892l-6.707-2.427-5.293 2.427-5.581-2.427-6.419 2.427 3.62-8.144c.299.76.554 1.776.596 3.583l-.443.996 2.699-1.021 4.809 2.091.751-3.725.718 3.675 4.454-2.042 3.099 1.121-.461-1.055c.026-.392.068-.78.131-1.144.144-.84.345-1.564.585-2.212l3.442 7.877z" />                                </svg>
+                            <h1 className="text-xl font-medium text-auth-text text-center uppercase tracking-widest pt-6">GPS proximity</h1>
+                            <p className="text-auth-subtext text-lg">
+                                Payment cannot be initiated if your card and phone are not in close proximity to each other. A stolen card
+                                is therefore useless.
+                            </p>
+                        </div>
+                    </div>
+
 
                     <div className="flex flex-row justify-start items-center py-16 pl-2">
                         <div className="w-9/12 ">
@@ -347,7 +416,7 @@ export default function Auth() {
 
 
             </div>
-        </div>
+        </div >
 
 
     );
