@@ -405,6 +405,10 @@ export default function Auth() {
                         in underlying technology was that instead of Bluetooth, we used GPS to sense proximity in this case.
                     </p>
 
+                    <p className="text-lg font-sub text-auth-subtext pt-6">
+                        The work resulted in a<a className="font-bold text-auth-red hover:text-pBlue-2" href="https://www.behance.net/gallery/105760889/Construction-and-evaluation-of-three-prototypes" target="_blank"> deck </a> summarizing our findingss.
+                    </p>
+
 
                     <h1 className=" font-bold text-4xl text-auth-text">
                         Moving forward.
@@ -420,8 +424,54 @@ export default function Auth() {
 
 
 
+                    <div className="my-24">
+                        <svg className="mx-auto" width="100%" height="100%" fill="#F27521" opacity="0.8">
+                            <circle cx="47%" cy="60" r="10"></circle>
+                            <circle cx="50%" cy="60" r="10"></circle>
+                            <circle cx="53%" cy="60" r="10"></circle>
+                        </svg>
+                    </div>
 
                     <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-24">Implementation phase</h1>
+
+                    <h1 className=" font-bold text-4xl text-auth-text">
+                        Technology and tools.
+                    </h1>
+
+                    <div className="flex flex-row justify-start pt-6">
+
+                        <div className="rounded-lg shadow-2xl w-1/4 bg-auth-background mr-6 ">
+                            <div className="bg-auth-red p-4 ">
+                                <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">Language</h1>
+
+                            </div>
+                            <p className="text-lg font-sub text-auth-subtext pt-6 p-4">
+                                Kotlin and Java, which are native for Android Development.
+                            </p>
+                        </div>
+
+                        <div className="rounded-lg shadow-2xl w-1/4 bg-auth-background mr-6">
+                            <div className="bg-auth-red p-4 ">
+                                <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">Tools</h1>
+
+                            </div>
+                            <p className="text-lg font-sub text-auth-subtext pt-6 p-4">
+                                Android Studio and Emulator, also native for Android Development.
+                            </p>
+                        </div>
+
+                        <div className="rounded-lg shadow-2xl w-1/4 bg-auth-background ">
+                            <div className="bg-auth-red p-4 ">
+                                <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">Sensors</h1>
+
+                            </div>
+                            <p className="text-lg font-sub text-auth-subtext pt-6 p-4">
+                                GPS, Speakers and Microphone gives us the required data and functionality to implement
+                                our interaction.
+                            </p>
+                        </div>
+
+                    </div>
 
                 </div>
 
