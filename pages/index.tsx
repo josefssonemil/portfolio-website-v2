@@ -45,14 +45,14 @@ export default function Home() {
             <ProjectCard
               name="Emotion Star"
               description="Singstar, but with face expressions (page in progress)"
-              url="https://i.imgur.com/ngOS6T3.png"
+              url="https://i.imgur.com/8gK4uNl.png"
               href="/facial"
             />
 
             <ProjectCard
               name="Project Halo"
               description="Lamp for work-life balance (page in progress)"
-              url="https://images.unsplash.com/photo-1572264731998-3f0ce0d31766?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80"
+              url="https://i.imgur.com/6FG04hB.png"
               href="/halo"
             />
 

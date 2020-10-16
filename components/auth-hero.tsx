@@ -17,7 +17,7 @@ const AuthHero = (props) => {
                 <div className="bg-auth-background shadow-2xl inline-block mx-auto my-auto w-7/12  text-center">
 
 
-                    <h1 className="text-5xl text-white p-6 mb-36 tracking-widest uppercase">
+                    <h1 className="text-2xl lg:text-5xl text-white p-6 mb-36 tracking-widest uppercase">
                         <span className="font-hairline">Prox</span><span className="font-light">pay</span>
                     </h1>
 

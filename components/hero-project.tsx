@@ -1,11 +1,10 @@
 interface Props {
-    header: string,
-    subtitle: string,
-    tags: [string],
-    links: [string]
+    header: string;
+    subtitle: string;
+    logoUrl: string;
 }
 
-const HeroProject = (props) => {
+const HeroProject = (props: Props) => {
 
     return (
 
