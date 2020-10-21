@@ -7,8 +7,7 @@ export default function Kuggen() {
             background: 'radial-gradient(circle, rgba(27,56,81,1) 4%, rgba(4,18,29,1) 100%)'
         }}>
 
-            <HeroProject header="Kuggen" subtitle="A game designed to help autistic children practice collaboration and social skills" tags={["auth", "test"]}
-                links={[""]} />
+            <HeroProject header="Kuggen" subtitle="A game designed to help autistic children practice collaboration and social skills" logoUrl="" />
 
 
 
@@ -26,7 +25,7 @@ export default function Kuggen() {
                 </p>
 
             </div>
-        </div>
+        </div >
 
     );
 }

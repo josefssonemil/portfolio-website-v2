@@ -7,7 +7,7 @@ export default function Halo() {
             background: 'radial-gradient(circle, rgba(27,56,81,1) 4%, rgba(4,18,29,1) 100%)'
         }}>
 
-            <HeroProject header="Project Halo" subtitle="A lamp designed for time-management and work-life balance" tags={["auth", "test"]} />
+            <HeroProject header="Project Halo" subtitle="A lamp designed for time-management and work-life balance" logoUrl="" />
 
 
 
