@@ -11,31 +11,42 @@ export default function Auth() {
             <div className="bg-auth-background -mt-12">
 
                 <div className="container mx-auto my-10 p-6">
+                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red pl-2">Why?</h1>
 
-                    <div className="flex lg:flex-row flex-col justify-center items-center pl-2">
-                        <div className="w-9/12 ">
-                            <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red">Why?</h1>
+                    <div className="flex lg:flex-row flex-col justify-start pl-2">
+
+                        <div className="w-1/3">
 
                             <h1 className="font-bold text-3xl lg:text-4xl text-auth-text">
-                                Pin authentication does not authorize you. It just
-                                authorizes whoever knows your pin code.
+                                The problem.
                             </h1>
 
-                            <p className="text-lg font-sub text-auth-subtext pt-6">
-                                Our solution integrate seamlessly with how you pay today.
-                                But with with extra safety.
+                            <p className="text-lg font-sub text-auth-subtext pt-2">
+                                Pin codes does not authorize you. They only authorize whoever knows your code. A stolen card
+                                can cause great harm, especially as pin codes are not required below 400 kr.
+                            </p>
+
+
+                        </div>
+
+                        <div className="w-1/3  lg:ml-12">
+                            <h1 className="font-bold text-3xl lg:text-4xl text-auth-text">
+                                The solution.
+                            </h1>
+
+                            <p className="text-lg font-sub text-auth-subtext pt-2">
+                                An invisible security layer that keeps the usable aspects of pin code while it minimizes the security flaws of stolen codes and cards.
+                                A stolen card and pin code will not be enough for a thief to use.
                             </p>
                         </div>
 
-                        <div className="">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#F6A61D" stroke-width="0.2" width="80%" height="80%" viewBox="0 0 24 24"><path d="M22 4h-20c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h20c1.104 0 2-.896 2-2v-12c0-1.104-.896-2-2-2zm-19 5.78c0-.431.349-.78.78-.78h.428v1.125h-1.208v-.345zm0 .764h1.208v.968h-1.208v-.968zm0 1.388h1.208v1.068h-.428c-.431 0-.78-.349-.78-.78v-.288zm3 5.068h-3v-1h3v1zm1-4.78c0 .431-.349.78-.78.78h-.429v-1.068h1.209v.288zm0-.708h-1.209v-.968h1.209v.968zm0-1.387h-1.629v2.875h-.743v-4h1.592c.431 0 .78.349.78.78v.345zm4 6.875h-3v-1h3v1zm1-6.5c0-1.381 1.119-2.5 2.5-2.5.484 0 .937.138 1.32.377-.531.552-.857 1.3-.857 2.123 0 .824.327 1.571.857 2.123-.383.239-.836.377-1.32.377-1.381 0-2.5-1.119-2.5-2.5zm4 6.5h-3v-1h3v1zm5 0h-3v-1h3v1zm-2.5-4c-1.38 0-2.5-1.119-2.5-2.5s1.12-2.5 2.5-2.5c1.381 0 2.5 1.119 2.5 2.5s-1.119 2.5-2.5 2.5z" /></svg>
-                        </div>
+
 
                     </div>
 
                     <div className="pl-2">
                         <h1 className="font-bold text-3xl lg:text-4xl text-auth-text pt-48">
-                            Your payments don't change.
+                            Payments don't change.
                         </h1>
 
                         <div className="flex flex-row justify-start pt-10">
@@ -70,20 +81,21 @@ export default function Auth() {
 
 
                     <h1 className="font-bold text-3xl lg:text-4xl text-auth-text pt-48 pl-2">
-                        But measures for stealing your card will.
+                        But measures for stealing cards will.
                         </h1>
 
                     <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
-                        Security measures under the hood maintains your integrity and safety.
-                            </p>
+                        Security measures under the hood maintains integrity and safety.
+                        We set out to investigate whether the following techniques could improve safety and not reduce usability.
+                    </p>
 
-                    <div className="flex flex-row justify-around  mt-6">
-                        <div className="flex flex-col w-1/4">
+                    <div className="flex flex-row justify-start  mt-12">
+                        <div className="flex flex-col w-1/4 mr-24">
                             <svg className="mx-auto px-6" xmlns="http://www.w3.org/2000/svg" fill="#151A23" stroke="#F6A61D" stroke-width="0.2" width="80%" height="80%" viewBox="0 0 24 24">
                                 <path d="M15 12c0-1.657-1.344-3-3-3s-3 1.343-3 3c0 1.304.838 2.403 2 2.816v9.184h2v-9.184c1.162-.413 2-1.512 2-2.816zm-8.282 0c0-1.791.887-3.397 2.282-4.498l-1.481-1.502c-1.86 1.467-3.04 3.608-3.04 6s1.18 4.533 3.04 6l1.481-1.502c-1.396-1.101-2.282-2.707-2.282-4.498zm9.763-6l-1.481 1.502c1.396 1.101 2.282 2.707 2.282 4.498s-.886 3.397-2.282 4.498l1.481 1.502c1.86-1.467 3.04-3.608 3.04-6s-1.179-4.533-3.04-6zm7.519 6c0 5.589-3.827 10.272-9 11.606v-2.068c4.053-1.277 7-5.069 7-9.539 0-5.514-4.486-10-10-10s-10 4.487-10 10.001c0 4.469 2.948 8.261 7 9.539v2.068c-5.172-1.335-9-6.018-9-11.607 0-6.627 5.373-12 12-12s12 5.373 12 12z" />
                             </svg>
                             <h1 className="text-xl font-medium text-auth-text text-center uppercase tracking-widest pt-6">Audio frequencies</h1>
-                            <p className="text-auth-subtext text-lg">
+                            <p className="text-auth-subtext text-lg text-center">
                                 Your card and phone will submit and receive a specific audio frequency to initiate link process to make sure that
                                 proximity is valid.
                             </p>
@@ -94,7 +106,7 @@ export default function Auth() {
 
                                 <path d="M18 0c-3.148 0-6 2.553-6 5.702 0 4.682 4.783 5.177 6 12.298 1.217-7.121 6-7.616 6-12.298 0-3.149-2.852-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm-12-3c-2.099 0-4 1.702-4 3.801 0 3.121 3.188 3.451 4 8.199.812-4.748 4-5.078 4-8.199 0-2.099-1.901-3.801-4-3.801zm0 5.333c-.737 0-1.333-.597-1.333-1.333s.596-1.333 1.333-1.333 1.333.596 1.333 1.333-.596 1.333-1.333 1.333zm6 5.775l-3.215-1.078c.365-.634.777-1.128 1.246-1.687l1.969.657 1.92-.64c.388.521.754 1.093 1.081 1.75l-3.001.998zm12 7.892l-6.707-2.427-5.293 2.427-5.581-2.427-6.419 2.427 3.62-8.144c.299.76.554 1.776.596 3.583l-.443.996 2.699-1.021 4.809 2.091.751-3.725.718 3.675 4.454-2.042 3.099 1.121-.461-1.055c.026-.392.068-.78.131-1.144.144-.84.345-1.564.585-2.212l3.442 7.877z" />                                </svg>
                             <h1 className="text-xl font-medium text-auth-text text-center uppercase tracking-widest pt-6">GPS proximity</h1>
-                            <p className="text-auth-subtext text-lg">
+                            <p className="text-auth-subtext text-lg text-center">
                                 Payment cannot be initiated if your card and phone are not in close proximity to each other. A stolen card
                                 is therefore useless.
                             </p>
@@ -104,6 +116,39 @@ export default function Auth() {
                     <h1 className="font-bold text-3xl lg:text-4xl text-auth-text pt-48 pl-2">
                         See how it works.
                         </h1>
+
+
+                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red pl-2 pt-48">Why it works</h1>
+
+                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                        The design was research-driven, i.e. it was initially based on research and empirically evaluated.
+                    </p>
+
+                    <h1 className="font-bold text-3xl lg:text-4xl text-auth-text pt-12 pl-2">
+                        Desk research.
+                        </h1>
+                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                        The design was research-driven, i.e. it was initially based on research and empirically evaluated.
+                    </p>
+
+                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                        <span className="text-auth-red">O</span> Humans are very likely to have their phone close to them to 10 hours per day, with an increased probability of having
+                        the phone near them when shopping <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/2030112.2030135" target="_blank">(source)</a>. As our solution requires phone proximity, we know that this, for most users,
+                        will not be an issue.
+                    </p>
+                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                        <span className="text-auth-red">O</span> 18 KHz frequency (inaudible) can be used to detect proximity between two devices, and
+                        has little to no noise. Since it's not autible, it doesn't cause disturbances and the technique also works when the phone
+                        is in the pocket <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/2389148.2389152" target="_blank">(source)</a>. We utilize this noise-free frequency for two reasons: it's easy to pick up and doesn't require the user to pick up
+                        his/her phone which causes excise.
+                    </p>
+
+
+                    <h1 className="font-bold text-3xl lg:text-4xl text-auth-text pt-12 pl-2">
+                        Empirical research.
+                    </h1>
+
+
 
 
                     <div className="flex flex-row justify-start items-center py-16 pl-2">
@@ -235,11 +280,38 @@ export default function Auth() {
                         Strategic design.
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext py-6">
-                        Viability, desirability and feasibility are the three components of strategic design. To make sure our
-                        ideas were strategically solid, we sought to better understand these dimensions. At this stage, we quickly
-                        analyzed these three dimensions to build upon for the next iteration.<br></br>
+                    <p className="text-lg font-sub text-auth-subtext pt-4">
+                        As we were designing for the real world, we needed to make sure that all the three components of strategic design
+                        can be satisfied: viability, desirability and feasibility. For each dimension and for each idea,
+                        we conducted an analysis to see how the ideas would test against the real world. If our ideas weren't
+                        strategically solid when designing for the real world, they would have to be scrapped.
                     </p>
+
+
+                    <h1 className="text-xl text-auth-text pt-8">
+                        <span className="text-auth-red font-bold ">DESIRABILITY:</span> <br></br>
+                        Do users even desire to use what we build? If we want to change how users authenticate, it's important
+                        that it has a low entry point, is more usable than traditional authentication methods, as well as ideally
+                        more secure. We believed that all three ideas showed great potential in this dimension.
+
+                    </h1>
+
+                    <h1 className="text-xl text-auth-text pt-4">
+                        <span className="text-auth-red font-bold ">FEASIBILITY:</span> <br></br>
+                            Does current technology support us building what the ideas require? We thought about which sensors we would need
+                            and found that all modern smart phones have them all: haptic feedback, camera, microphone, speakers and location.
+
+                    </h1>
+
+                    <h1 className="text-xl text-auth-text pt-4">
+                        <span className="text-auth-red font-bold ">VIABILITY:</span> <br></br>
+                        Can we, given the scope of the project and our programming skills, actually implement and create what we want?
+                        Again, for ideas one and two, this seemed reasonable. Kotlin has native support for using the sensors we need
+                        and we felt confident in that we could complete the implementation in the given time. However, for the AR-idea,
+                        we weren't as confident and thus viability was a big issue.
+
+                    </h1>
+
 
                     <h1 className=" font-bold text-4xl text-auth-text pt-12">
                         Formative Research.
@@ -440,7 +512,7 @@ export default function Auth() {
 
                     <div className="flex flex-row justify-start pt-6">
 
-                        <div className="rounded-lg shadow-2xl w-1/4 bg-auth-background mr-6 ">
+                        <div className="rounded-lg shadow-2xl w-1/3 bg-auth-background mr-6 ">
                             <div className="bg-auth-red p-4 ">
                                 <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">Language</h1>
 
@@ -450,7 +522,7 @@ export default function Auth() {
                             </p>
                         </div>
 
-                        <div className="rounded-lg shadow-2xl w-1/4 bg-auth-background mr-6">
+                        <div className="rounded-lg shadow-2xl w-1/3 bg-auth-background mr-6">
                             <div className="bg-auth-red p-4 ">
                                 <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">Tools</h1>
 
@@ -460,7 +532,7 @@ export default function Auth() {
                             </p>
                         </div>
 
-                        <div className="rounded-lg shadow-2xl w-1/4 bg-auth-background ">
+                        <div className="rounded-lg shadow-2xl w-1/3 bg-auth-background ">
                             <div className="bg-auth-red p-4 ">
                                 <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">Sensors</h1>
 
@@ -472,6 +544,172 @@ export default function Auth() {
                         </div>
 
                     </div>
+
+
+                    <h1 className="font-bold text-4xl text-auth-text pt-24">
+                        Building the application.
+                    </h1>
+
+                    <p className="text-lg font-sub text-auth-subtext pt-4">
+                        As we had set up the requirements, in terms of sensors and functionality, we started building the application.
+                        We built isolated components through the Separation of concerns design pattern and tested each component
+                        independently of each other.
+                     </p>
+
+                    <div className="flex flex-row justify-start pt-6">
+
+                        <div className="rounded-lg shadow-2xl w-1/3 bg-auth-background mr-6 ">
+                            <div className="bg-auth-red p-4 ">
+                                <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">Sound component</h1>
+
+                            </div>
+                            <p className="text-lg font-sub text-auth-subtext pt-6 p-4">
+                                The sound component handles everything that has to do with audio. It is split into two
+                                subcomponents: one that generates and plays sound, and one that listens to and analyzes sound.
+                                Which one to use is dependent on hardcoded device IDs.
+                            </p>
+                        </div>
+
+                        <div className="rounded-lg shadow-2xl w-1/3 bg-auth-background mr-6">
+                            <div className="bg-auth-red p-4 ">
+                                <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">Overlay component</h1>
+
+                            </div>
+                            <p className="text-lg font-sub text-auth-subtext pt-6 p-4">
+                                The overlay component can be seen as the main activity and frontend of the application. This component
+                                makes sure that we can display an overlay independent of whether the application is open or not, and that
+                                we can run our logic in the background when this is the case.
+                            </p>
+                        </div>
+
+                        <div className="rounded-lg shadow-2xl w-1/3 bg-auth-background ">
+                            <div className="bg-auth-red p-4 ">
+                                <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">Location component</h1>
+
+                            </div>
+                            <p className="text-lg font-sub text-auth-subtext pt-6 p-4">
+                                The location component handles everything with location. It reads the device location through GPS and
+                                runs its logic to decide whether the two devices are in close proximity to each other or not.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <h1 className="font-bold text-4xl text-auth-text pt-24">
+                        Application flow.
+                    </h1>
+
+                    <div className="flex flex-row justify-start pt-6">
+
+                        <div className="rounded-lg shadow-2xl w-1/3 bg-auth-background mr-6 ">
+                            <div className="bg-auth-red p-4 ">
+                                <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">1. Start services</h1>
+
+                            </div>
+                            <p className="text-lg font-sub text-auth-subtext pt-6 p-4">
+                                The application does some initial set-up. We start up the overlay service, which allows us to
+                                display a modal panel over the home screen. In this service, we initiate our sound objects as well as
+                                location services, along with requesting permissions. The service is hosted by the main activity.
+                            </p>
+                        </div>
+
+                        <div className="rounded-lg shadow-2xl w-1/3 bg-auth-background mr-6">
+                            <div className="bg-auth-red p-4 ">
+                                <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">2. proximity check</h1>
+
+                            </div>
+                            <p className="text-lg font-sub text-auth-subtext pt-6 p-4">
+                                We separate the two devices using their unique identifiers into a receiver (the phone) and a sender (the card). Our location
+                                service gives us a geolocation of the two devices (in latitude and longitude), which we parse with an algorithm to
+                                calculate the distance between the devices. If the distance is close enough, the payment proceeds.
+                            </p>
+                        </div>
+
+                        <div className="rounded-lg shadow-2xl w-1/3 bg-auth-background ">
+                            <div className="bg-auth-red p-4 ">
+                                <h1 className="text-xl tracking-wide font-bold uppercase font-main text-auth-black">3. audio communication</h1>
+
+                            </div>
+                            <p className="text-lg font-sub text-auth-subtext pt-6 p-4">
+                                When proximity is verified, we generate a tone of a specific frequency which the sender outputs. Once this is done,
+                                the receiver actively listens for this frequency. If the receiver can hear the frequency, the payment process is
+                                deemed complete and execution stops.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <h1 className="font-bold text-4xl text-auth-text pt-24">
+                        Limitations.
+                    </h1>
+
+                    <p className="text-lg font-sub text-auth-subtext pt-4">
+                        Considering the short time-frame for implementation, as well as us as developers being new to Kotlin and
+                        Android development, the implementation has some limitations in terms of functionality and
+                        application structure. There was not simply enough time for us to completely implement everything, which
+                        led to a high fidelty prototype that mostly shows a proof of concept. Although,
+                        even though this is the case, we have a plan for how a fully working prototype would be implemented.
+                     </p>
+
+                    <div className="pt-24">
+                        <h1 className="text-xl text-auth-text">
+                            <span className="text-auth-red font-bold ">PROBLEM:</span> <br></br> There is an offset between the emitted
+                            frequency and the frequency the receiver reads.
+                        </h1>
+
+                        <h1 className="text-xl text-auth-text">
+                            <span className="text-auth-red font-bold ">SOLUTION:</span> <br></br>Troubleshooting did not make us found an obvious
+                            solution, but we have a few ideas. For starters, our domain knowledge in sound analysis and generation is too small
+                            and more research would be needed. Our implementation of audio analysis using Fast Fourier Transforms could be wrong
+                            and is a good starting point for pinpointing the issue. Another issue could be the microphone itself; how accurate is it's
+                            readings or could the phone be broken?
+                        </h1>
+
+                        <h1 className="text-xl text-auth-text pt-8">
+                            <span className="text-auth-red font-bold ">PROBLEM:</span> <br></br> We cannot communicate
+                            directly between the devices.
+                        </h1>
+
+                        <h1 className="text-xl text-auth-text">
+                            <span className="text-auth-red font-bold ">SOLUTION:</span> <br></br>This has to do with the app architecture itself.
+                            We would like a client-server protocol to be implemented, where one device acts as the server and one as the client.
+                            A problem that occurs due to this not being implemented is that our application cannot compare the locations of the two devices,
+                            which means that we have to hardcode one of the locations and use that as comparison.
+                        </h1>
+
+                        <h1 className="text-xl text-auth-text pt-8">
+                            <span className="text-auth-red font-bold ">PROBLEM:</span> <br></br> Application life-cycle is fixed
+                            and does not handle edge cases.
+                        </h1>
+
+                        <h1 className="text-xl text-auth-text">
+                            <span className="text-auth-red font-bold ">SOLUTION:</span> <br></br>
+                            As of now, our application flow is fixed and has a hardcoded expectation of what to expect as input.
+                            If this expectation is not met, some weird behavior can occur. For example, sometimes the receiver device
+                            don't have the time to initiate the listening before the sender has already sent its message. Again,
+                            this could be solved with the client-server protocol, but we fixed it in a horrible way by putting the
+                            main thread to sleep so that the sender isn't too quick.
+                        </h1>
+
+                        <h1 className="text-xl text-auth-text pt-8">
+                            <span className="text-auth-red font-bold ">PROBLEM:</span> <br></br> The card is not real,
+                            another phone mimics its functionality.
+                        </h1>
+
+                        <h1 className="text-xl text-auth-text">
+                            <span className="text-auth-red font-bold ">SOLUTION:</span> <br></br>
+                           This was both a viability and feasibility issue for the project. We did not have the time, nor the resources,
+                           to build a card with the required sensors (speakers, NFC and GPS). Although, using a second device to mimic the card
+                           allowed us to prove the concept. In real scenario, there should only be one phone and one card. We have too little
+                           domain knowledge to provide a plan for how the card would be built exactly. However we know that we would require
+                           extremely small sensors for the card to still be thin.
+                        </h1>
+                    </div>
+
+
+                    <h1 className="font-bold text-4xl text-auth-text pt-24">
+                        Evaluation.
+                    </h1>
 
                 </div>
 
