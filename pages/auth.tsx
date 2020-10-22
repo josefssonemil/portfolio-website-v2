@@ -113,23 +113,15 @@ export default function Auth() {
                         </div>
                     </div>
 
-                    <h1 className="font-bold text-3xl lg:text-4xl text-auth-text pt-48 pl-2">
+                    <h1 className="font-bold text-3xl lg:text-4xl text-auth-text pt-48 pl-2 text-center">
                         See how it works.
                         </h1>
+
+                    <iframe className="mt-8 mx-auto" src="https://player.vimeo.com/video/470562183" width="640" height="360" ></iframe>
 
 
                     <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red pl-2 pt-48">Why it works</h1>
 
-                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
-                        The design was research-driven, i.e. it was initially based on research and empirically evaluated.
-                    </p>
-
-                    <h1 className="font-bold text-3xl lg:text-4xl text-auth-text pt-12 pl-2">
-                        Desk research.
-                        </h1>
-                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
-                        The design was research-driven, i.e. it was initially based on research and empirically evaluated.
-                    </p>
 
                     <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
                         <span className="text-auth-red">O</span> Humans are very likely to have their phone close to them to 10 hours per day, with an increased probability of having
@@ -137,16 +129,37 @@ export default function Auth() {
                         will not be an issue.
                     </p>
                     <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
-                        <span className="text-auth-red">O</span> 18 KHz frequency (inaudible) can be used to detect proximity between two devices, and
+                        <span className="text-auth-red">O </span> 18 KHz frequency (inaudible) can be used to detect proximity between two devices, and
                         has little to no noise. Since it's not autible, it doesn't cause disturbances and the technique also works when the phone
                         is in the pocket <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/2389148.2389152" target="_blank">(source)</a>. We utilize this noise-free frequency for two reasons: it's easy to pick up and doesn't require the user to pick up
                         his/her phone which causes excise.
                     </p>
 
+                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                        <span className="text-auth-red">O</span> Limitations of NFC Relay attacks can be used to capture information of the card by forwarding data after a legitimate purchase. The article suggests that using distance bounding protocols counter these attacks. It also suggest that security of NFC payments are neglected, and that lessons should be learnt about these vulnerabilities that causes concerns for the user's privacy
+                       <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/3098954.3103161" target="_blank">(source)</a> . This is considered in our application with having limitations of boundary of where payments are accepted, utilizing both location and sounds frequency as these boundaries. The application adds an additional security layer to improve these vulnerabilities.
+                    </p>
 
-                    <h1 className="font-bold text-3xl lg:text-4xl text-auth-text pt-12 pl-2">
-                        Empirical research.
-                    </h1>
+
+                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                        <span className="text-auth-red">O </span>
+
+                        Design process for usable security and authentication using a user-centered approach. The article suggests that usability and security opposes each others, and that there should be a trade-off between these two <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/3123818.3123838" target="_blank">(source)</a> .
+                        In the ProxPay application these trade offs are not necessary.
+                        It improves security without the need of lose usability with authentication occurring in the background that does not changes how the user normally interact with card terminals. The usability of the normal payment process are not considered and does not challenge the users' mental-modal at NFC payments.
+
+
+
+                        </p>
+
+                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                        <span className="text-auth-red">O </span>
+
+            While designing authentication interfaces, users should not be considered as weak-points in the authentication process but rather take advantages of their natural abilities. The authentication process should be clear and usable for poor mental models
+            <a className="text-auth-red" href="https://www.emerald.com/insight/content/doi/10.1108/ICS-04-2016-0034/full/html" target="_blank">(source)</a>.
+             This is a important factor that has been considered in the application with not changing the payment process, and instead work with a broader spectrum of mental models. A user with a poor mental model does not have additional things to think of, while a user with better mental model have the ability to add steps to the process, with confirming the process in the application and cancelling payments.
+
+                        </p>
 
 
 
@@ -378,13 +391,42 @@ export default function Auth() {
                     </h1>
 
                     <p className="text-lg font-sub text-auth-subtext py-6">
-                        Our prototypes were evaluated using a mixture between a questionnaire and an interview. (ADD)
+                        The questionnaire introduces the project and the purpose of the the evaluation and was divided into
+                        three parts with one for each of the prototypes. All of them was introduces with a
+                        scenario on where these ideas take place and the goal of the prototypes.
+                        Questions were asked about what devices they can would think
+                        these prototypes to be useful and if they could see drawbacks with
+                        using biometric authentication, location authentication, and
+                        introducing a new design of a traditional keypads. General questions
+                        were also asked if these authentication process solves issues with
+                        security, compared to traditional authentication methods such as pin-code
+                        and access cards. The questionnaire had 4 user responses.
 
+
+                        <br></br>
+
+                        Interviews were held with 2 participants and were based on the questions from the questionnaire. This enabled participants to give more detailed responses and follow-up questions were asked why did or didn't agree with how the prototypes would solve security issues.
                     </p>
 
                     <h1 className=" font-bold text-4xl text-auth-text">
                         Results.
                     </h1>
+
+                    <p className="text-lg font-sub text-auth-subtext py-6">
+                        <span className="text-auth-red">Prototype ONE</span>.
+                         It was considered to be a good alternative for when normal biometric would not work, such as issues with face unlock while wearing a mask, and fingerprint unlock while wearing gloves. Concerns were raised of the reliability of using vibration as authentication method because of irregular user inputs. It also introduces issues with false negatives and would frustrate the user with they thinking they done the authentication correctly but the result was denied. Because of these concerns, this prototype was scrapped since it would complicate the traditional way of authenticating.
+                    </p>
+
+                    <p className="text-lg font-sub text-auth-subtext py-6">
+                        <span className="text-auth-red">Prototype TWO</span>.
+                        Participants expressed problems with being reliant on having your phone nearby you at every payment. But at the same time it was considered to have very limited drawbacks since you are already dependent on having your phone on or near you.
+                    </p>
+
+                    <p className="text-lg font-sub text-auth-subtext py-6">
+                        <span className="text-auth-red">Prototype TWO</span>.
+                        The main concern from the participants were that it added steps to an unlocking process while not introducing any security that would be worth the effort, and was described as "Just opening with more steps". Another issue found was that users would rather use the traditional unlocking process and discard the idea of using the phone instead. This prototype used this feedback to modify the next iteration, and combine results from prototype two and three into a single prototype.
+                    </p>
+
 
                     <p className="text-lg font-sub text-auth-subtext py-6">
                         The result was a <a className="font-bold text-auth-red hover:text-pBlue-2" href="https://www.behance.net/gallery/105760889/Construction-and-evaluation-of-three-prototypes" target="_blank">deck </a> describing the concretization and evaluation of our ideas.
@@ -704,12 +746,17 @@ export default function Auth() {
                            domain knowledge to provide a plan for how the card would be built exactly. However we know that we would require
                            extremely small sensors for the card to still be thin.
                         </h1>
+
+                        <h1 className="text-xl text-auth-text pt-8">
+                            <span className="text-auth-red font-bold ">PROBLEM:</span> <br></br> Location on phone are never exact and can vary from reading to reading.
+                        </h1>
+
+                        <h1 className="text-xl text-auth-text">
+                            <span className="text-auth-red font-bold ">SOLUTION:</span> <br></br>
+                          This problem is not critical for the application to work, but it can introduce a reliability issue where the two units are in proximity while the reading says it's not. This is solved by having an acceptable boundary of the distance between them. The calculations are set in meters for what feels appropriate for the scenario, with a boundary set to 10 meters. This assures that the card and phone are in proximity while also giving room for changes in the readings of coordinates.
+                        </h1>
                     </div>
 
-
-                    <h1 className="font-bold text-4xl text-auth-text pt-24">
-                        Evaluation.
-                    </h1>
 
                 </div>
 
