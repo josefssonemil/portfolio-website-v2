@@ -125,26 +125,26 @@ export default function Auth() {
 
                     <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
                         <span className="text-auth-red">O</span> Humans are very likely to have their phone close to them to 10 hours per day, with an increased probability of having
-                        the phone near them when shopping <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/2030112.2030135" target="_blank">(source)</a>. As our solution requires phone proximity, we know that this, for most users,
+                        the phone near them when shopping <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/2030112.2030135" target="_blank"> (source). </a>As our solution requires phone proximity, we know that this, for most users,
                         will not be an issue.
                     </p>
                     <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
                         <span className="text-auth-red">O </span> 18 KHz frequency (inaudible) can be used to detect proximity between two devices, and
                         has little to no noise. Since it's not autible, it doesn't cause disturbances and the technique also works when the phone
-                        is in the pocket <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/2389148.2389152" target="_blank">(source)</a>. We utilize this noise-free frequency for two reasons: it's easy to pick up and doesn't require the user to pick up
+                        is in the pocket <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/2389148.2389152" target="_blank"> (source). </a> We utilize this noise-free frequency for two reasons: it's easy to pick up and doesn't require the user to pick up
                         his/her phone which causes excise.
                     </p>
 
                     <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
                         <span className="text-auth-red">O</span> Limitations of NFC Relay attacks can be used to capture information of the card by forwarding data after a legitimate purchase. The article suggests that using distance bounding protocols counter these attacks. It also suggest that security of NFC payments are neglected, and that lessons should be learnt about these vulnerabilities that causes concerns for the user's privacy
-                       <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/3098954.3103161" target="_blank">(source)</a> . This is considered in our application with having limitations of boundary of where payments are accepted, utilizing both location and sounds frequency as these boundaries. The application adds an additional security layer to improve these vulnerabilities.
+                       <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/3098954.3103161" target="_blank"> (source). </a> This is considered in our application with having limitations of boundary of where payments are accepted, utilizing both location and sounds frequency as these boundaries. The application adds an additional security layer to improve these vulnerabilities.
                     </p>
 
 
                     <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
                         <span className="text-auth-red">O </span>
 
-                        Design process for usable security and authentication using a user-centered approach. The article suggests that usability and security opposes each others, and that there should be a trade-off between these two <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/3123818.3123838" target="_blank">(source)</a> .
+                        Design process for usable security and authentication using a user-centered approach. The article suggests that usability and security opposes each others, and that there should be a trade-off between these two <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/3123818.3123838" target="_blank"> (source). </a>
                         In the ProxPay application these trade offs are not necessary.
                         It improves security without the need of lose usability with authentication occurring in the background that does not changes how the user normally interact with card terminals. The usability of the normal payment process are not considered and does not challenge the users' mental-modal at NFC payments.
 
@@ -156,7 +156,7 @@ export default function Auth() {
                         <span className="text-auth-red">O </span>
 
             While designing authentication interfaces, users should not be considered as weak-points in the authentication process but rather take advantages of their natural abilities. The authentication process should be clear and usable for poor mental models
-            <a className="text-auth-red" href="https://www.emerald.com/insight/content/doi/10.1108/ICS-04-2016-0034/full/html" target="_blank">(source)</a>.
+            <a className="text-auth-red" href="https://www.emerald.com/insight/content/doi/10.1108/ICS-04-2016-0034/full/html" target="_blank"> (source). </a>
              This is a important factor that has been considered in the application with not changing the payment process, and instead work with a broader spectrum of mental models. A user with a poor mental model does not have additional things to think of, while a user with better mental model have the ability to add steps to the process, with confirming the process in the application and cancelling payments.
 
                         </p>
@@ -570,7 +570,8 @@ export default function Auth() {
 
                             </div>
                             <p className="text-lg font-sub text-auth-subtext pt-6 p-4">
-                                Android Studio and Emulator, also native for Android Development.
+                                Android Studio and Emulator, also native for Android Development. GitHub used
+                                for version control, <a className="text-auth-red font-bold" href="https://github.com/josefssonemil/mobile-computing-2020" target="_blank">repository.</a>
                             </p>
                         </div>
 
@@ -756,6 +757,14 @@ export default function Auth() {
                           This problem is not critical for the application to work, but it can introduce a reliability issue where the two units are in proximity while the reading says it's not. This is solved by having an acceptable boundary of the distance between them. The calculations are set in meters for what feels appropriate for the scenario, with a boundary set to 10 meters. This assures that the card and phone are in proximity while also giving room for changes in the readings of coordinates.
                         </h1>
                     </div>
+
+
+                    <h1 className="font-bold text-4xl text-auth-text pt-24">
+                        Final Prototype.
+                    </h1>
+
+                    <img src="https://i.imgur.com/RAjFrF3.png" className="w-full"></img>
+
 
 
                 </div>
