@@ -21,7 +21,10 @@ const AuthHero = (props) => {
                         <span className="font-hairline">Prox</span><span className="font-light">pay</span>
                     </h1>
 
-                    <p className="text-xl text-auth-subtext font-hairline">Securing card-based payments.</p>
+                    <p className="text-xl text-auth-subtext font-hairline">
+                        <span className="text-auth-red font-medium">Design for the real world: <br></br></span> Securing card-based payments through extra authentication layers without
+                        compromising usability.
+                    </p>
 
                     <svg className="mx-auto mb-12 mt-12" width="70" height="96" viewBox="0 0 70 96" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M37.5 51C42 51 70 51 70 25.5C70 -1.90735e-06 37.5 0 37.5 0H0C0 0 12 5.49231 18 6.66923C21.5484 7.36526 23.348 7.35372 26.8118 7.3315C29.2049 7.31615 32.3925 7.2957 37.5 7.5C50 8 62.5 12.5538 62.5 25.5C62.5 38.4462 47.5 41.9769 41 42.7615C34.5 43.5462 18 42.7615 18 42.7615V51H37.5ZM0 96H11V54.4498C11 44.9952 0 44 0 44V96Z" fill="url(#paint0_linear)" />

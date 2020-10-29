@@ -84,9 +84,9 @@ export default function Auth() {
                         But measures for stealing cards will.
                         </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                    <p className="text-lg font-sub text-auth-subtext pt-2 pl-2">
                         Security measures under the hood maintains integrity and safety.
-                        We set out to investigate whether the following techniques could improve safety and not reduce usability.
+                        Phone does never even have to leave the pocket. Works in noisy environments due to chosen frequency.
                     </p>
 
                     <div className="flex flex-row justify-start  mt-12">
@@ -123,25 +123,25 @@ export default function Auth() {
                     <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red pl-2 pt-48">Why it works</h1>
 
 
-                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                    <p className="text-lg font-sub text-auth-subtext pt-2 pl-2">
                         <span className="text-auth-red">O</span> Humans are very likely to have their phone close to them to 10 hours per day, with an increased probability of having
                         the phone near them when shopping <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/2030112.2030135" target="_blank"> (source). </a>As our solution requires phone proximity, we know that this, for most users,
                         will not be an issue.
                     </p>
-                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                    <p className="text-lg font-sub text-auth-subtext pt-6 pl-2">
                         <span className="text-auth-red">O </span> 18 KHz frequency (inaudible) can be used to detect proximity between two devices, and
                         has little to no noise. Since it's not autible, it doesn't cause disturbances and the technique also works when the phone
                         is in the pocket <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/2389148.2389152" target="_blank"> (source). </a> We utilize this noise-free frequency for two reasons: it's easy to pick up and doesn't require the user to pick up
                         his/her phone which causes excise.
                     </p>
 
-                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                    <p className="text-lg font-sub text-auth-subtext pt-6 pl-2">
                         <span className="text-auth-red">O</span> Limitations of NFC Relay attacks can be used to capture information of the card by forwarding data after a legitimate purchase. The article suggests that using distance bounding protocols counter these attacks. It also suggest that security of NFC payments are neglected, and that lessons should be learnt about these vulnerabilities that causes concerns for the user's privacy
                        <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/3098954.3103161" target="_blank"> (source). </a> This is considered in our application with having limitations of boundary of where payments are accepted, utilizing both location and sounds frequency as these boundaries. The application adds an additional security layer to improve these vulnerabilities.
                     </p>
 
 
-                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                    <p className="text-lg font-sub text-auth-subtext pt-6 pl-2">
                         <span className="text-auth-red">O </span>
 
                         Design process for usable security and authentication using a user-centered approach. The article suggests that usability and security opposes each others, and that there should be a trade-off between these two <a className="text-auth-red" href="https://dl.acm.org/doi/10.1145/3123818.3123838" target="_blank"> (source). </a>
@@ -152,7 +152,7 @@ export default function Auth() {
 
                         </p>
 
-                    <p className="text-lg font-sub text-auth-subtext pt-4 pl-2">
+                    <p className="text-lg font-sub text-auth-subtext pt-6 pl-2">
                         <span className="text-auth-red">O </span>
 
             While designing authentication interfaces, users should not be considered as weak-points in the authentication process but rather take advantages of their natural abilities. The authentication process should be clear and usable for poor mental models
@@ -243,43 +243,41 @@ export default function Auth() {
                                 Defining the project.
                             </h1>
 
-                            <p className="text-lg font-sub text-auth-subtext pt-6">
+                            <p className="text-lg font-sub text-auth-subtext pt-4">
                                 All projects start with an idea. Ours started with the idea of escaping the traditional 2FA methods
                                 which are usually not very user friendly. Our vision was to create authentication methods that satisfies the keywords
                                 <span className="text-auth-red font-bold"> innovative</span> +
                                 <span className="text-auth-red font-bold"> usable</span> +
-                                <span className="text-auth-red font-bold"> secure</span> at the same time.
+                                <span className="text-auth-red font-bold"> secure</span> at the same time. Our three ideas:
                             </p>
 
-                            <p className="text-lg font-sub text-auth-subtext pt-6">
-                                Through lots of research and brainstorming sessions, we came up with the following concepts:
-                            </p>
+
 
                             <div className="flex flex-col lg:flex-row justify-around">
 
-                                <p className="text-lg font-sub text-auth-subtext p-6">
+                                <p className="text-lg font-sub text-auth-subtext p-6 w-1/3">
                                     <span className="text-lg tracking-wide font-bold uppercase font-main text-auth-red"> Vibration based authentication</span>
                                     <br></br>
-                                Shoulder-surfing are common in public settings where user authenticate themselves, by for example using password or pin-codes. Vibration-based authentication could work as a user-friendly way to provide 2FA authentication in these circumstances with no information leakage.
+                                    Using vibration patterns which are invisible to everyone except the holder of the phone to unlock the device.
                             </p>
 
 
 
-                                <p className="text-lg font-sub text-auth-subtext pt-6 p-6">
+                                <p className="text-lg font-sub text-auth-subtext pt-6 p-6 w-1/3">
 
 
                                     <span className="text-lg tracking-wide font-bold uppercase font-main text-auth-red"> Sound Proximity authentication</span>
                                     <br></br>
-                                Card payments have gotten more convienient by not requiring pin code below a certain amount but introduces risks of cards being scimmed. “Blipp”-payment authentication by proximity with sounds of a connected phone may provide security to an unprotected use.
+                                    Using two forms of extra authentication layers: sound frequency reading and proximity check through GPS to allow card-payments.
                             </p>
 
 
-                                <p className="text-lg font-sub text-auth-subtext pt-6  p-6">
+                                <p className="text-lg font-sub text-auth-subtext pt-6  p-6 w-1/3">
 
 
                                     <span className="text-lg tracking-wide font-bold uppercase font-main text-auth-red"> Authentication in AR</span>
                                     <br></br>
-                                Many building have digital unlocking access to the facility and it requires a card. Users often keep their phone on them and several services requires a digital version of a physical card. This options is to explore an AR version of an access application to replace cards.
+                                    Using augmented reality as a way to replace the need for a card for physical access.
                             </p>
                             </div>
 
@@ -295,9 +293,7 @@ export default function Auth() {
 
                     <p className="text-lg font-sub text-auth-subtext pt-4">
                         As we were designing for the real world, we needed to make sure that all the three components of strategic design
-                        can be satisfied: viability, desirability and feasibility. For each dimension and for each idea,
-                        we conducted an analysis to see how the ideas would test against the real world. If our ideas weren't
-                        strategically solid when designing for the real world, they would have to be scrapped.
+                        can be satisfied: viability, desirability and feasibility.
                     </p>
 
 
@@ -326,11 +322,11 @@ export default function Auth() {
                     </h1>
 
 
-                    <h1 className=" font-bold text-4xl text-auth-text pt-12">
+                    <h1 className=" font-bold text-4xl text-auth-text pt-6">
                         Formative Research.
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext py-6">
+                    <p className="text-lg font-sub text-auth-subtext pt-2">
                         We used Google Scholar to research the area and our chosen ideas and concepts.
                         Summarized, our findings included that usability was a problematic area
                         within user authentication methods and that security and usability didn't go well together hand in hand.
@@ -338,11 +334,11 @@ export default function Auth() {
                         idea, such as user proximity to their smartphone and designing authentication systems in AR.
                     </p>
 
-                    <h1 className=" font-bold text-4xl text-auth-text pt-12">
+                    <h1 className=" font-bold text-4xl text-auth-text pt-6">
                         Results.
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext py-6">
+                    <p className="text-lg font-sub text-auth-subtext pt-2">
                         The result was a <a className="font-bold text-auth-red hover:text-pBlue-2" href="https://www.behance.net/gallery/105053289/Strategy-Deck-Mobile-Computing" target="_blank">strategy deck </a>to be the basis for our project.
                         All sources can be found here.
                     </p>
@@ -365,7 +361,7 @@ export default function Auth() {
                         Concretization.
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext py-6">
+                    <p className="text-lg font-sub text-auth-subtext pt-2">
                         Based upon our <a className="font-bold text-auth-red hover:text-pBlue-2" href="https://www.behance.net/gallery/105053289/Strategy-Deck-Mobile-Computing" target="_blank">strategy deck</a>,
                         we refined and defined our three ideas into something concrete. In practice, this means that we
                         went from conceptualization to concretization to put our ideas in to a prototype that could be tested.
@@ -373,42 +369,27 @@ export default function Auth() {
                     </p>
 
 
-                    <h1 className=" font-bold text-4xl text-auth-text">
+                    <h1 className=" font-bold text-4xl text-auth-text pt-4">
                         Creating the prototypes.
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext py-6">
+                    <p className="text-lg font-sub text-auth-subtext pt-2">
                         The prototypes were rough and dirty, quickly created in Figma. For each prototype,
                         we designed a storyboard containing either wireframes or illustrations to show the interaction with
                         some additional explanatory text. The storyboards were based on the use cases we derived.
 
-                        ADD IMAGES HERE?
-
                     </p>
 
-                    <h1 className=" font-bold text-4xl text-auth-text">
+                    <h1 className=" font-bold text-4xl text-auth-text pt-4">
                         Evaluating the prototypes.
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext py-6">
-                        The questionnaire introduces the project and the purpose of the the evaluation and was divided into
-                        three parts with one for each of the prototypes. All of them was introduces with a
-                        scenario on where these ideas take place and the goal of the prototypes.
-                        Questions were asked about what devices they can would think
-                        these prototypes to be useful and if they could see drawbacks with
-                        using biometric authentication, location authentication, and
-                        introducing a new design of a traditional keypads. General questions
-                        were also asked if these authentication process solves issues with
-                        security, compared to traditional authentication methods such as pin-code
-                        and access cards. The questionnaire had 4 user responses.
+                    <p className="text-lg font-sub text-auth-subtext pt-2">
+                        We evaluated the prototypes through a questionnaire and shorter interviews were we introduced the project,
+                        asked about the pros/cons of each idea and as a way to get general feedback.
+                                      </p>
 
-
-                        <br></br>
-
-                        Interviews were held with 2 participants and were based on the questions from the questionnaire. This enabled participants to give more detailed responses and follow-up questions were asked why did or didn't agree with how the prototypes would solve security issues.
-                    </p>
-
-                    <h1 className=" font-bold text-4xl text-auth-text">
+                    <h1 className=" font-bold text-4xl text-auth-text pt-4">
                         Results.
                     </h1>
 
@@ -460,7 +441,7 @@ export default function Auth() {
                         Technical constraints.
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext py-6">
+                    <p className="text-lg font-sub text-auth-subtext pt-4">
                         We listed the technical core that would have to work in order for the interaction work from a technical perspective.
                     </p>
 
@@ -476,7 +457,7 @@ export default function Auth() {
                         <span className="font-bold text-auth-red text-2xl">3.</span> Difficulty; are we proficient enough in programming to do the actual implementation?
                     </p>
 
-                    <h1 className=" font-bold text-4xl text-auth-text py-6">
+                    <h1 className=" font-bold text-4xl text-auth-text pt-4">
                         Technical evaluation.
                     </h1>
                     <p className="text-lg font-sub text-auth-subtext">
@@ -497,7 +478,7 @@ export default function Auth() {
 
 
 
-                    <h1 className=" font-bold text-4xl text-auth-text">
+                    <h1 className=" font-bold text-4xl text-auth-text pt-4">
                         Results.
                     </h1>
 
@@ -524,11 +505,11 @@ export default function Auth() {
                     </p>
 
 
-                    <h1 className=" font-bold text-4xl text-auth-text">
+                    <h1 className=" font-bold text-4xl text-auth-text pt-4">
                         Moving forward.
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext pt-6">
+                    <p className="text-lg font-sub text-auth-subtext pt-2">
                         We decided to combine the technology of <span className="text-auth-red uppercase tracking-wide font-bold">PROTOTYPE TWO </span>
                         and the use case of <span className="text-auth-red uppercase tracking-wide font-bold">PROTOTYPE ONE</span>.
                         The reason for this lies in the fact that using GPS was both easier and yielded similar accuracy compared to Bluetooth. GPS gives us true location,
@@ -686,11 +667,10 @@ export default function Auth() {
                         Limitations.
                     </h1>
 
-                    <p className="text-lg font-sub text-auth-subtext pt-4">
+                    <p className="text-lg font-sub text-auth-subtext pt-2">
                         Considering the short time-frame for implementation, as well as us as developers being new to Kotlin and
                         Android development, the implementation has some limitations in terms of functionality and
-                        application structure. There was not simply enough time for us to completely implement everything, which
-                        led to a high fidelty prototype that mostly shows a proof of concept. Although,
+                        application structure. Although,
                         even though this is the case, we have a plan for how a fully working prototype would be implemented.
                      </p>
 
