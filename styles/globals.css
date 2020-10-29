@@ -92,72 +92,40 @@ a {
   }
 }
 
-.arrows {
-  width: 60px;
-  height: 72px;
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 200px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #111;
+
+
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
 }
 
-.arrows path {
-  stroke: #ED2D37;
-  fill: transparent;
-  stroke-width: 1px;
-  animation: arrow 2s infinite;
-  -webkit-animation: arrow 2s infinite;
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+
+  text-decoration: none;
+  font-size: 18px;
+  color: #ACACAC;
+  display: block;
 }
 
-@keyframes arrow {
-  0% {
-    opacity: 0
-  }
-
-  40% {
-    opacity: 1
-  }
-
-  80% {
-    opacity: 0
-  }
-
-  100% {
-    opacity: 0
-  }
-}
-
-@-webkit-keyframes arrow
-
-/*Safari and Chrome*/
-  {
-  0% {
-    opacity: 0
-  }
-
-  40% {
-    opacity: 1
-  }
-
-  80% {
-    opacity: 0
-  }
-
-  100% {
-    opacity: 0
-  }
-}
-
-.arrows path.a1 {
-  animation-delay: -1s;
-  -webkit-animation-delay: -1s;
-  /* Safari 和 Chrome */
-}
-
-.arrows path.a2 {
-  animation-delay: -0.5s;
-  -webkit-animation-delay: -0.5s;
-  /* Safari 和 Chrome */
-}
-
-.arrows path.a3 {
-  animation-delay: 0s;
-  -webkit-animation-delay: 0s;
-  /* Safari 和 Chrome */
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #F6A61D;
 }

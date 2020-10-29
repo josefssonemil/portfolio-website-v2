@@ -7,11 +7,31 @@ export default function Auth() {
 
             <AuthHero header="Authenticate" subtitle="Designing an innovative, secure and usable way to authenticate" tags={["auth", "test"]} />
 
+            <div className="invisible sidenav font-sub tracking-widest uppercase text-center md:visible">
+                <h1 className="text-center text-auth-subtext pb-12">Proxpay</h1>
+
+                <a href="#why">Why</a>
+                <hr className="w-3/4 mx-auto my-6"></hr>
+                <a href="#formative-research">Formative Research</a>
+                <hr className="w-3/4 mx-auto my-6"></hr>
+
+
+                <a href="#desirability">Prototyping: Desirability</a>
+
+                <hr className="w-3/4 mx-auto my-6"></hr>
+
+                <a href="#feasibility">Prototyping: Feasibility</a>
+
+                <hr className="w-3/4 mx-auto my-6"></hr>
+
+                <a href="#implementation">Prototyping: Implementation</a>
+
+            </div>
 
             <div className="bg-auth-background -mt-12">
 
-                <div className="container mx-auto my-10 p-6">
-                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red pl-2">Why?</h1>
+                <div className="container mx-auto my-10 p-6 md:ml-64">
+                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red pl-2" id="why">Why?</h1>
 
                     <div className="flex lg:flex-row flex-col justify-start pl-2">
 
@@ -237,7 +257,7 @@ export default function Auth() {
                     <div className="flex flex-row justify-start items-center pl-2">
                         <div className="w-full ">
 
-                            <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red">Formative research and strategy</h1>
+                            <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red" id="formative-research">Formative research and strategy</h1>
 
                             <h1 className=" font-bold text-4xl text-auth-text">
                                 Defining the project.
@@ -354,7 +374,7 @@ export default function Auth() {
 
 
 
-                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-24">Prototype Phase one - desirability</h1>
+                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-24" id="desirability">Prototype Phase one - desirability</h1>
 
 
                     <h1 className=" font-bold text-4xl text-auth-text">
@@ -423,7 +443,7 @@ export default function Auth() {
                         </svg>
                     </div>
 
-                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-24">Prototype Phase two - feasibility</h1>
+                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-24 " id="feasibility">Prototype Phase two - feasibility</h1>
 
 
                     <h1 className=" font-bold text-4xl text-auth-text">
@@ -527,7 +547,7 @@ export default function Auth() {
                         </svg>
                     </div>
 
-                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-24">Implementation phase</h1>
+                    <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red mt-24" id="implementation">Implementation phase</h1>
 
                     <h1 className=" font-bold text-4xl text-auth-text">
                         Technology and tools.
