@@ -140,6 +140,16 @@ export default function Auth() {
                     <iframe className="mt-8 mx-auto" src="https://player.vimeo.com/video/470562183" width="640" height="360" ></iframe>
 
 
+
+
+                    <h1 className="font-bold text-4xl text-auth-text pt-24 pb-12">
+                        Final Prototype.
+                    </h1>
+
+                    <img src="https://i.imgur.com/RAjFrF3.png" className="w-full"></img>
+
+
+
                     <h1 className="text-2xl tracking-wide font-bold uppercase font-main text-auth-red pl-2 pt-48">Why it works</h1>
 
 
@@ -757,14 +767,6 @@ export default function Auth() {
                           This problem is not critical for the application to work, but it can introduce a reliability issue where the two units are in proximity while the reading says it's not. This is solved by having an acceptable boundary of the distance between them. The calculations are set in meters for what feels appropriate for the scenario, with a boundary set to 10 meters. This assures that the card and phone are in proximity while also giving room for changes in the readings of coordinates.
                         </h1>
                     </div>
-
-
-                    <h1 className="font-bold text-4xl text-auth-text pt-24">
-                        Final Prototype.
-                    </h1>
-
-                    <img src="https://i.imgur.com/RAjFrF3.png" className="w-full"></img>
-
 
 
                 </div>
