@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
 
 html,
 body {
@@ -11,10 +13,8 @@ body {
 
 }
 
-.test {
-  left: 50%;
-  margin-left: 25%;
-
+.h-half {
+  height: 65vh;
 }
 
 .authbg {
@@ -37,7 +37,22 @@ body {
 
 }
 
+.emotion-star-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://i.imgur.com/3LMbX2E.jpg");
 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.svg-shapes {
+  background-image: url("data:image/svg+xml,%3Csvg width='1080' height='1920' viewBox='0 0 1080 1920' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0)'%3E%3Crect width='1080' height='1920' fill='%23151A23'/%3E%3Cpath d='M683.042 913.746C615.154 987.223 704.142 1023.66 728.607 1034.06C753.071 1044.47 842.06 1121.93 883.038 1137.85C924.015 1153.77 972.638 999.775 889.766 960.282C806.893 920.788 932.272 875.783 835.332 839.964C738.393 804.144 750.931 840.27 683.042 913.746Z' fill='url(%23paint0_linear)' fill-opacity='0.75'/%3E%3Cpath d='M106.424 590.603C28.2088 593.65 57.3276 663.061 65.1154 682.361C72.9031 701.661 79.3364 793.758 93.2185 825.247C107.101 856.736 219.175 798.499 195.135 730.78C171.095 663.062 265.393 707.587 231.534 634.112C197.674 560.637 184.639 587.555 106.424 590.603Z' fill='url(%23paint1_linear)' fill-opacity='0.75'/%3E%3Cpath d='M623.742 1605.75C514.242 1586.75 220.242 1586.25 281.242 1501.75C342.242 1417.25 356.242 1455.75 417.242 1451.25C478.242 1446.75 378.742 1343.25 493.742 1332.25C608.742 1321.25 662.242 1337.25 720.242 1394.25C778.242 1451.25 733.242 1624.75 623.742 1605.75Z' fill='url(%23paint2_linear)' fill-opacity='0.75'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='796.5' y1='826' x2='796.5' y2='1139' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23F8B01C'/%3E%3Cstop offset='1' stop-color='%23ED7000'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint1_linear' x1='217.757' y1='604.892' x2='44.6745' y2='777.975' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23F8B01C'/%3E%3Cstop offset='1' stop-color='%23ED7000'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint2_linear' x1='509.336' y1='1329' x2='509.336' y2='1607.2' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23F8B01C'/%3E%3Cstop offset='1' stop-color='%23ED7000'/%3E%3C/linearGradient%3E%3CclipPath id='clip0'%3E%3Crect width='1080' height='1920' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 
 
 .red-shadow {

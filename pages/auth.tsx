@@ -1,4 +1,4 @@
-import AuthHero from "../components/auth-hero";
+import AuthHero from "../components/hero/auth-hero";
 
 export default function Auth() {
     return (

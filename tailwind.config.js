@@ -9,7 +9,10 @@ module.exports = {
     extend: {
       fontFamily: {
         'sub': ['nunito', 'sans-serif'],
-        'main': ['inter', 'sans-serif']
+        'main': ['inter', 'sans-serif'],
+        'red-main': ['"Red Hat Display"', 'sans-serif'],
+        'red-sub': ['"Red Hat Text"', 'sans-serif']
+
       },
     },
     screens: {
@@ -34,7 +37,7 @@ module.exports = {
         foreground: '#1C1C1C',
         background: '#151A23',
         text: '#F9F9F9',
-        subtext: '#e9e9e9',
+        subtext: '#d9d9d9',
         red: '#F6A61D',
         green: '#5B8A5E',
         greenLime: '#A6BE3A',

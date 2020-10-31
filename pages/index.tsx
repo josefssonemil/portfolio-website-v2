@@ -1,12 +1,12 @@
 import Head from 'next/head'
-import Hero from '../components/hero'
-import MiscCard from '../components/misc-card'
-import ProjectCard from '../components/project-card'
+import Hero from '../components/hero/hero'
+import MiscCard from '../components/cards/misc-card'
+import ProjectCard from '../components/cards/project-card'
 
 
 import Link from 'next/link'
 import Footer from '../components/footer'
-import SkillCard from '../components/skill-card'
+import SkillCard from '../components/cards/skill-card'
 
 
 export default function Home() {
@@ -46,7 +46,7 @@ export default function Home() {
               name="Emotion Star"
               description="Singstar, but with face expressions (page in progress)"
               url="https://i.imgur.com/8gK4uNl.png"
-              href="/facial"
+              href="/emotion-star"
             />
 
             <ProjectCard
