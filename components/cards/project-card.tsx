@@ -1,13 +1,10 @@
 import Link from 'next/link'
-
-
-
-
 interface Props {
     name: string,
     description: string,
-    url: string,
+    tags: string,
     href: string
+
 }
 
 const ProjectCard = (props: Props) => {
@@ -16,91 +13,36 @@ const ProjectCard = (props: Props) => {
 
     return (
 
+        <Link href={props.href}>
 
-        <div className="h-screen">
-
-
-
-            <div className="flex flex-col lg:flex-row justify-around bg-auth-background shadow-2xl">
-
-                <div className="flex flex-col lg:flex-row items-center ">
+            <div className="h-64 lg:h-card w-full lg:w-1/3 project-card my-24">
 
 
-                    <div className="p-6 text-center lg:text-left">
-                        <h1 className="text-5xl font-bold text-auth-text">{props.name}</h1>
-                        <h1 className="text-2xl text-auth-subtext">{props.description}</h1>
 
-                        <Link href={props.href}>
-                            <a>
-                                <button className="rounded-lg shadow-lg bg-auth-red mt-6">
-                                    <h1 className="p-4 font-bold uppercase tracking-wider">
-                                        Case Study
-                            </h1>
-                                </button>
-                            </a>
-                        </Link>
+                <div className="w-full h-full flex flex-row justify-between items-center">
+
+                    <div className="p-12">
+                        <div className="font-red-main text-2xl lg:text-6xl text-auth-text uppercase tracking-widest font-bold">{props.name}</div>
+                        <div className="font-red-sub text-lg lg:text-3xl text-auth-text">{props.description}</div>
+                        <div className="font-red-sub text-gray-100 font-hairline text-lg lg:text-xl pt-6">{props.tags}</div>
+
 
                     </div>
 
 
+                    <div className="p-12">
+                        <svg width="125" height="125" viewBox="0 0 125 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.042 15.625L41.9639 0L104.167 62.5L41.9639 125L26.042 109.375L72.917 62.5L26.042 15.625Z" fill="white" />
+                        </svg>
 
-
+                    </div>
                 </div>
-
-
-                <div className="pt-12  w-full lg:w-8/12 lg:mx-0 mx-auto my-auto">
-                    <img className="clipper h-64 w-full" src={props.url}>
-                    </img>
-                </div>
-
             </div>
 
 
-
-
-        </div >
-
-
-
-
+        </Link>
     );
 }
 
 export default ProjectCard;
 
-
-/*
-
-        <div className="flex flex-row justify-center items-center ">
-
-
-
-                <div className="text-auth-text">
-                    <h1 className="text-2xl lg:text-6xl">{props.name}</h1>
-                    <h1 className="text-xl lg:text-2xl">{props.description}</h1>
-                    <svg width="47" height="54" viewBox="0 0 47 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M47 27L0.499997 53.8468L0.5 0.15321L47 27Z" fill="#ED2D37" />
-                    </svg>
-
-                </div>
-
-
-
-                <div className="red-shadow">
-                    <img className="clipper" src="https://images.unsplash.com/photo-1504203700686-f21e703e5f1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2261&q=80">
-                    </img>
-                </div>
-
-
-
-
-
-
-
-
-
-
-            </div >
-
-
-*/

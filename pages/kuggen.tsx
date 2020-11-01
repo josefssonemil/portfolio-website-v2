@@ -1,31 +1,89 @@
-import HeroProject from "../components/hero-project";
+import HeroV2 from '../components/hero/hero-v2'
+import Footer from '../components/footer'
 
 export default function Kuggen() {
     return (
 
-        <div className="h-screen" style={{
-            background: 'radial-gradient(circle, rgba(27,56,81,1) 4%, rgba(4,18,29,1) 100%)'
-        }}>
+        <div className="">
 
-            <HeroProject header="Kuggen" subtitle="A game designed to help autistic children practice collaboration and social skills" logoUrl="" />
+            <HeroV2 class="kuggen-bg" header="Kuggen: A game designed to aid children with autism" imgsrc="" />
+            <div className="svg-shapes">
+
+                <div className="container p-6 mx-auto">
+
+                    <div className="flex flex-col lg:flex-row justify-between pt-10 pb-16">
+                        <h1 className="text-2xl lg:text-3xl font-red-sub text-auth-subtext">
+                            <span className="font-red-main font-bold text-auth-text">YEAR </span> 2019
+                    </h1>
+                        <h1 className="text-2xl lg:text-3xl  font-red-sub text-auth-subtext">
+                            <span className="font-red-main font-bold  text-auth-text">CONTEXT </span> Bachelor's thesis in Computer Science and Engineering
+                    </h1>
+
+                    </div>
+
+                    <hr className="w-1/3 mx-auto"></hr>
+
+
+                    <div className="pt-16">
+                        <h1 className="text-xl lg:text-2xl font-red-main text-auth-subtext">
+                            Kuggen is a game developed specificially to aid children with autism. In particular, the game aims to improve collaborative as well as social skills
+                            for the children. The game itself is a four person game where collaboration and communication is crucial for success. The goal for the players is to
+                            align the cogwheels' arrows with each other and one player controls a unique cogwheel. Harder levels include blockades and rotation constraints which
+                            requires even more teamwork.
+
+                    </h1>
+                    </div>
+
+                    <div className="pt-6">
+                        <h1 className="text-xl lg:text-2xl font-red-main text-auth-subtext">
+                            Kuggen was designed and developed as a part of my bachelor's thesis where we investigated successful game patterns and game design for the
+                            specific target group. Another goal was to burst the mobile bubble - preventing isolated smartphone usage and promoting playing games together instead.
+                            The project ran at Chalmers University of Technology as a part of a bigger research project investigating this question.
+
+                    </h1>
+                    </div>
 
 
 
-            <div className="container mx-auto my-10 ">
-                <h1 className="text-4xl tracking-wide font-medium font-main text-orange-300 p-6">Synthesis</h1>
-                <p className="text-base font-sub text-gray-300 px-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                    <div className="flex flex-col lg:flex-row justify-between pt-24">
+                        <h1 className="text-2xl lg:text-3xl  font-red-sub text-auth-subtext">
+                            <span className="font-red-main font-bold text-auth-text">DESIGN </span><br></br> Paper Prototyping <br></br> Adobe XD
+                    </h1>
+                        <h1 className="text-2xl lg:text-3xl  font-red-sub text-auth text-auth-subtext">
+                            <span className="font-red-main font-bold text-auth-text">IMPLEMENTATION </span> <br></br> Swift4
+                    </h1>
+                        <h1 className="text-2xl lg:text-3xl font-red-sub text-auth-subtext">
+                            <span className="font-red-main font-bold text-auth-text">THEME </span> <br></br> User Experience <br></br> Game Design <br></br> Designing for children with autism
+                    </h1>
+
+                    </div>
 
 
-                <h1 className="text-4xl tracking-wide font-medium font-main text-orange-300 p-6">Something</h1>
+                    <hr className="w-1/3 mx-auto mt-48"></hr>
 
-                <p className="text-base font-sub text-gray-300 px-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                    <h1 className="text-3xl font-red-main mt-48 text-center text-bold text-auth-text">External links</h1>
 
+                    <p className="text-xl font-red-sub text-center text-auth-text">
+                        <a href="https://drive.google.com/file/d/18uzTxGqIOR-TyrKeAFe3FZii_S4YeOvO/view?usp=sharing" target="_blank">The Thesis</a>
+                    </p>
+
+                    <p className="text-xl font-red-sub text-center text-auth-text">
+                        <a href="https://www.chalmers.se/en/projects/Pages/Touch-AtQ-Q-Designing-interactive-assistive-touch-technologies.aspx" target="_blank">Touch AT!</a>
+                    </p>
+
+                    <p className="text-xl font-red-sub text-center text-auth-text">
+                        <a href="https://www.chalmers.se/sv/institutioner/cse/utbildning/Grundutbildning/kandidatprojekt/Sidor/DATX02_19_25.aspx" target="_blank">Four in One</a>
+                    </p>
+
+                    <p className="text-xl font-red-sub text-center pb-48 text-auth-text">
+                        <a href="https://github.com/josefssonemil/Four-in-one" target="_blank">GitHub repository</a>
+                    </p>
+
+
+                </div>
+
+                <Footer />
             </div>
-        </div >
-
+        </div>
     );
 }

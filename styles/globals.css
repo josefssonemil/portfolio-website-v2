@@ -13,9 +13,31 @@ body {
 
 }
 
-.h-half {
+.h-card {
+  height: 15vh;
+}
+
+.h-hero {
   height: 65vh;
 }
+
+.project-card {
+
+  border-radius: 30px;
+
+  border: 7px solid #FF9E44;
+
+
+}
+
+.project-card:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 15px rgba(255, 145, 0, 0.25));
+
+
+
+}
+
 
 .authbg {
   background-image: url("data:image/svg+xml,%3Csvg width='1920' height='1080' viewBox='0 0 1920 1080' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect y='220' width='1920' height='860' fill='%23151A23'/%3E%3Cpath d='M1920 0V225.068L659 618.85C336.104 714.408 190.201 742.973 0 744V0H1920Z' fill='url(%23paint0_linear)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='-7.041e-06' y1='17.7685' x2='798.072' y2='719.232' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0.29161' stop-color='%23F27521'/%3E%3Cstop offset='1' stop-color='%23F8A81D'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E ");
@@ -31,7 +53,7 @@ body {
 .clipper {
 
   display: block;
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   object-fit: cover;
 
 
@@ -39,7 +61,16 @@ body {
 
 .emotion-star-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("https://i.imgur.com/3LMbX2E.jpg");
+    url("https://i.imgur.com/hcIQHRA.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kuggen-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://i.imgur.com/UoVMNQC.png");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -88,24 +119,7 @@ a {
 
 
 
-@-moz-keyframes spin {
-  100% {
-    -moz-transform: rotate(360deg);
-  }
-}
 
-@-webkit-keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
 
 
 /* The sidebar menu */

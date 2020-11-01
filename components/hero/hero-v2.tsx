@@ -1,17 +1,23 @@
-const HeroV2 = () => {
+interface Props {
+    class: string,
+    imgsrc: string,
+    header: string
+}
+
+const HeroV2 = (props: Props) => {
 
     return (
 
-        <div className="emotion-star-bg ">
-            <div className="h-half w-full flex flex-col justify-center" >
+        <div className={`${props.class}`}>
+            <div className="h-hero w-full flex flex-col justify-center" >
 
                 <div className="w-full mx-auto">
-                    <img className="mx-auto p-24" src="/assets/emotionstar/emotion-star.svg"></img>
+                    <img className="mx-auto p-24" src={props.imgsrc}></img>
                 </div>
 
                 <div className="w-full mx-auto">
                     <h1 className="text-center text-2xl lg:text-4xl font-red-main text-auth-subtext">
-                        A game that only utilizes one input modality: your facial expressions
+                        {props.header}
                     </h1>
                 </div>
 

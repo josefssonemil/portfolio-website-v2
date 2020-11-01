@@ -6,7 +6,7 @@ export default function EmotionStar() {
 
         <div className="">
 
-            <HeroV2 />
+            <HeroV2 class="emotion-star-bg" header="A game that only utilizes one input modality: your facial expressions" imgsrc="/assets/emotionstar/emotion-star.svg/" />
             <div className="svg-shapes">
 
                 <div className="container p-6 mx-auto">
@@ -127,6 +127,6 @@ export default function EmotionStar() {
 
                 <Footer />
             </div>
-        </div>
+        </div >
     );
 }
