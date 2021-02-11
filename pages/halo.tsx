@@ -1,4 +1,4 @@
-import HeroProject from "../components/hero-project";
+import HeroProject from "../components/hero/hero-project";
 
 export default function Halo() {
     return (
