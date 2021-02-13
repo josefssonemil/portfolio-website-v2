@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Header = () => {
     return (
-        <div className="top-0 sticky overflow-hidden">
+        <div className="lg:top-0 lg:sticky lg:overflow-hidden">
             <header className="bg-white">
             <div className="container flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row ">
 
