@@ -5,6 +5,7 @@ export default function Kuggen() {
     return (
 
         <div className="">
+             <Header/>
 
             <HeroV2 class="kuggen-bg" header="Kuggen: A game designed to aid children with autism" imgsrc="" />
             <div className="svg-shapes">

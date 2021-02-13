@@ -1,10 +1,12 @@
 import HeroV2 from '../components/hero/hero-v2'
 import Footer from '../components/footer'
+import Header from '../components/header'
 
 export default function EmotionStar() {
     return (
 
         <div className="">
+    <Header/>
 
             <HeroV2 class="emotion-star-bg" header="A game that only utilizes one input modality: your facial expressions" imgsrc="/assets/emotionstar/emotion-star.svg/" />
             <div className="svg-shapes">

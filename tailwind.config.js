@@ -33,6 +33,13 @@ module.exports = {
         2: '#294459'
       },
 
+      v2: {
+        white: '#dfdfdf',
+        dark: '#151A23',
+        purple: '#743ad5',
+        pink: '#d53a9d'
+      },
+
       auth: {
         foreground: '#1C1C1C',
         background: '#151A23',
