@@ -1,5 +1,7 @@
 import HeroV2 from '../components/hero/hero-v2'
 import Footer from '../components/footer'
+import Header from '../components/header'
+
 
 export default function Kuggen() {
     return (
