@@ -38,27 +38,53 @@ export default function EmotionStar() {
                     </h1>
                     </div>
 
+                    <div className="flex flex-wrap text-left justify-between my-24">
+
+                        <div className="p-6 lg:w-1/4 md:w-full gradient-card-with-bg my-4">
 
 
-                    <div className="flex flex-col lg:flex-row justify-between pt-24">
-                        <h1 className="text-2xl lg:text-3xl  font-red-sub text-auth-subtext">
-                            <span className="font-red-main font-bold text-auth-text">DESIGN </span><br></br> Figma
-                    </h1>
-                        <h1 className="text-2xl lg:text-3xl  font-red-sub text-auth text-auth-subtext">
-                            <span className="font-red-main font-bold text-auth-text">IMPLEMENTATION </span> <br></br> NextJS <br></br> ReactJS <br></br> TailwindCSS <br></br> face-api.js
-                    </h1>
-                        <h1 className="text-2xl lg:text-3xl font-red-sub text-auth-subtext">
-                            <span className="font-red-main font-bold text-auth-text">THEME </span> <br></br> User Experience <br></br> Game Design <br></br> Quantified Self
-                    </h1>
+                        <h2 className="mb-3 text-lg font-semibold text-v2-white lg:text-2xl font-red-main"> 
+                        Design Process
+                        </h2>
+                        <p className="mb-4 text-base leading-relaxed font-red-sub text-v2-white">
+                        Ideation, Sketching, Implementation, Evaluation
+                        </p>
 
-                    </div>
+                        </div>
+
+                        <div className="p-6 lg:w-1/4 md:w-full gradient-card-with-bg my-4">
+
+
+                        <h2 className="mb-3 text-lg font-semibold text-v2-white lg:text-2xl font-red-main"> 
+                        Implementation
+                        </h2>
+                        <p className="mb-4 text-base leading-relaxed font-red-sub text-v2-white">
+                        NextJS • ReactJS • TailwindCSS
+                        </p>
+
+                        </div>
+
+                        <div className="p-6 lg:w-1/4 md:w-full gradient-card-with-bg my-4">
+
+
+                        <h2 className="mb-3 text-lg font-semibold text-v2-white lg:text-2xl font-red-main"> 
+                        Theme
+                        </h2>
+                        <p className="mb-4 text-base leading-relaxed font-red-sub text-v2-white">
+                        User Experience • Game Design • Quantified Self
+                        </p>
+
+                        </div>
+                        </div>
+
+
 
 
 
                     <div className="w-full flex flex-col mt-48">
 
 
-                        <div className="flex flex-col lg:flex-row ">
+                        <div className="flex flex-col lg:flex-row">
                             <img className="" src="http://idxpo.se/current/group6/img/warmup.gif"></img>
 
                             <div className="p-6">
@@ -108,19 +134,19 @@ export default function EmotionStar() {
 
                     <h1 className="text-3xl font-red-main mt-48 text-center text-bold text-auth-text">External links</h1>
 
-                    <p className="text-xl font-red-sub text-center text-auth-text">
+                    <p className="text-xl font-red-sub text-center text-auth-text links">
                         <a href="https://emotion-star.vercel.app/" target="_blank">Play the game</a>
                     </p>
 
-                    <p className="text-xl font-red-sub text-center text-auth-text">
+                    <p className="text-xl font-red-sub text-center text-auth-text links">
                         <a href="http://idxpo.se/current/group6/" target="_blank">Read more about the game</a>
                     </p>
 
-                    <p className="text-xl font-red-sub text-center text-auth-text">
+                    <p className="text-xl font-red-sub text-center text-auth-text links">
                         <a href="http://idxpo.se/current/" target="_blank">Read more about the project course</a>
                     </p>
 
-                    <p className="text-xl font-red-sub text-center pb-48 text-auth-text">
+                    <p className="text-xl font-red-sub text-center pb-48 text-auth-text links">
                         <a href="https://github.com/josefssonemil/emotion-star" target="_blank">GitHub repository</a>
                     </p>
 

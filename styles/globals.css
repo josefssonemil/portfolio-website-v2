@@ -61,8 +61,7 @@ body {
 }
 
 .svg-shapes {
-  background-image: url("data:image/svg+xml,%3Csvg width='1080' height='1920' viewBox='0 0 1080 1920' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0)'%3E%3Crect width='1080' height='1920' fill='%23151A23'/%3E%3Cpath d='M683.042 913.746C615.154 987.223 704.142 1023.66 728.607 1034.06C753.071 1044.47 842.06 1121.93 883.038 1137.85C924.015 1153.77 972.638 999.775 889.766 960.282C806.893 920.788 932.272 875.783 835.332 839.964C738.393 804.144 750.931 840.27 683.042 913.746Z' fill='url(%23paint0_linear)' fill-opacity='0.75'/%3E%3Cpath d='M106.424 590.603C28.2088 593.65 57.3276 663.061 65.1154 682.361C72.9031 701.661 79.3364 793.758 93.2185 825.247C107.101 856.736 219.175 798.499 195.135 730.78C171.095 663.062 265.393 707.587 231.534 634.112C197.674 560.637 184.639 587.555 106.424 590.603Z' fill='url(%23paint1_linear)' fill-opacity='0.75'/%3E%3Cpath d='M623.742 1605.75C514.242 1586.75 220.242 1586.25 281.242 1501.75C342.242 1417.25 356.242 1455.75 417.242 1451.25C478.242 1446.75 378.742 1343.25 493.742 1332.25C608.742 1321.25 662.242 1337.25 720.242 1394.25C778.242 1451.25 733.242 1624.75 623.742 1605.75Z' fill='url(%23paint2_linear)' fill-opacity='0.75'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='796.5' y1='826' x2='796.5' y2='1139' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23F8B01C'/%3E%3Cstop offset='1' stop-color='%23ED7000'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint1_linear' x1='217.757' y1='604.892' x2='44.6745' y2='777.975' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23F8B01C'/%3E%3Cstop offset='1' stop-color='%23ED7000'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint2_linear' x1='509.336' y1='1329' x2='509.336' y2='1607.2' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23F8B01C'/%3E%3Cstop offset='1' stop-color='%23ED7000'/%3E%3C/linearGradient%3E%3CclipPath id='clip0'%3E%3Crect width='1080' height='1920' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-  background-position: center;
+background-image: url("data:image/svg+xml,%3Csvg width='1080' height='1920' viewBox='0 0 1080 1920' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='1080' height='1920' fill='%23151A23'/%3E%3Cpath d='M598.401 453.245C581.03 500.075 551.281 538.211 509.154 567.654C467.027 597.096 423.937 600.457 379.883 577.734C335.829 555.012 290.308 530.943 243.318 505.526C196.329 480.109 185.495 443.71 210.818 396.328C236.141 348.946 258.975 307.122 279.321 270.857C299.666 234.591 332.593 206.023 378.102 185.154C423.611 164.284 462.019 173.284 493.326 212.154C524.633 251.023 554.316 289.215 582.373 326.729C610.43 364.243 615.773 406.415 598.401 453.245Z' fill='url(%23paint0_linear)'/%3E%3Cpath d='M518 1554.5C507.333 1599.5 479.833 1625.67 435.5 1633C391.166 1640.33 345.333 1650.67 298 1664C250.666 1677.33 215.5 1662.33 192.5 1619C169.5 1575.67 157.5 1531.5 156.5 1486.5C155.5 1441.5 167.166 1397.83 191.5 1355.5C215.833 1313.17 252.5 1292.5 301.5 1293.5C350.5 1294.5 399.333 1301.83 448 1315.5C496.666 1329.17 523.166 1361.17 527.5 1411.5C531.833 1461.83 528.666 1509.5 518 1554.5Z' fill='url(%23paint1_linear)'/%3E%3Cpath d='M908.5 1019.5C896.167 1059.17 873.167 1098.17 839.5 1136.5C805.834 1174.83 765.833 1183.17 719.5 1161.5C673.167 1139.83 627.667 1114.83 583 1086.5C538.334 1058.17 523.5 1018.67 538.5 968C553.5 917.333 577.167 877.333 609.5 848C641.834 818.667 679.833 790.833 723.5 764.5C767.167 738.167 801.5 747.833 826.5 793.5C851.5 839.167 874.5 878.333 895.5 911C916.5 943.667 920.834 979.833 908.5 1019.5Z' fill='url(%23paint2_linear)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='402.941' y1='174.218' x2='402.941' y2='592.581' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23743AD5'/%3E%3Cstop offset='1' stop-color='%23D53A9D'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint1_linear' x1='342.909' y1='1293.47' x2='342.909' y2='1668.71' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23743AD5'/%3E%3Cstop offset='1' stop-color='%23D53A9D'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint2_linear' x1='724.094' y1='750.053' x2='724.094' y2='1173.24' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23743AD5'/%3E%3Cstop offset='1' stop-color='%23D53A9D'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -133,6 +132,34 @@ a {
   /*background: linear-gradient(to left, #743ad5, #d53a9d);*/
   cursor: pointer;
   transform:scale(1.03);
+}
+
+.gradient-card {
+  /* background-color: #9921e8;
+  background: linear-gradient(to left, rgba(116, 58, 213,0.6), rgba(213, 58, 157,0.6));  */
+
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
+}
+
+.gradient-card:hover {
+  background: linear-gradient(to left, rgba(116, 58, 213,0.7), rgba(213, 58, 157,0.7));
+
+}
+
+.links {
+}
+
+.links:hover {
+  color: #743ad5;
+
+}
+
+.gradient-card-with-bg {
+  background: linear-gradient(to left, rgba(116, 58, 213,0.7), rgba(213, 58, 157,0.7));
+
 }
 
 

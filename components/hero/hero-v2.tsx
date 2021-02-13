@@ -16,7 +16,7 @@ const HeroV2 = (props: Props) => {
                 </div>
 
                 <div className="w-full mx-auto">
-                    <h1 className="text-center text-2xl lg:text-4xl font-red-main text-auth-subtext">
+                    <h1 className="text-center text-2xl lg:text-4xl font-red-main text-v2-white font-bold">
                         {props.header}
                     </h1>
                 </div>
