@@ -1,7 +1,8 @@
 interface Props {
     header: string;
     subtitle: string;
-    logoUrl: string;
+    context: string;
+    imgsrc: string;
 }
 
 const HeroProject = (props: Props) => {
@@ -9,35 +10,43 @@ const HeroProject = (props: Props) => {
     return (
 
 
-        <div className="block authbg w-full h-screen">
+        <div className="gradient-bg-hero">
+
+        <div className="container flex flex-col md:flex-row justify-center mx-auto lg:pt-48 lg:pb-24">
 
 
-            <div className="flex mx-auto  h-screen">
+            <div className="p-6 lg:text-left text-center">
+                <h2 className="text-3xl text-center lg:text-6xl lg:text-left font-black tracking-widest text-gray-900 font-red-main">
+                    {props.header}
+            </h2>
 
-                <div className="bg-auth-background shadow-2xl inline-block mx-auto my-auto w-7/12  text-center">
+                <h2 className="text-md lg:text-xl text-center lg:text-left font-medium text-gray-800 tracking-wider font-red-sub">
 
-
-                    <h1 className="text-5xl text-white p-6 mb-36 tracking-widest uppercase">
-                        {props.header}
-                    </h1>
-
-                    <p className="text-xl text-auth-subtext font-hairline">{props.subtitle}</p>
-
-                    <svg className="mx-auto mb-12 mt-12" width="70" height="96" viewBox="0 0 70 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M37.5 51C42 51 70 51 70 25.5C70 -1.90735e-06 37.5 0 37.5 0H0C0 0 12 5.49231 18 6.66923C21.5484 7.36526 23.348 7.35372 26.8118 7.3315C29.2049 7.31615 32.3925 7.2957 37.5 7.5C50 8 62.5 12.5538 62.5 25.5C62.5 38.4462 47.5 41.9769 41 42.7615C34.5 43.5462 18 42.7615 18 42.7615V51H37.5ZM0 96H11V54.4498C11 44.9952 0 44 0 44V96Z" fill="url(#paint0_linear)" />
-                        <defs>
-                            <linearGradient id="paint0_linear" x1="62" y1="-2" x2="-6.00001" y2="97.5" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#F6A61D" />
-                                <stop offset="1" stop-color="#F8C81D" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
+                    {props.subtitle}
+                </h2>
 
 
-                </div>
+                <hr className="w-full mx-auto mt-6 lg:mx-0 hr-hero"></hr>
+
+                <h2 className="pt-6 text-md lg:text-lg text-center lg:text-left font-medium text-gray-800 tracking-wider font-red-sub" >
+                    {props.context}
+                </h2>
+
+
             </div>
 
 
+
+            <div className="lg:w-1/4 w-5/6 mx-auto pb-24">
+
+                <img src={props.imgsrc}>
+                
+                </img>
+
+            </div>
+
+
+            </div>
 
 
         </div>

@@ -5,6 +5,7 @@ import Header from '../components/header'
 
 import Footer from '../components/footer'
 import CardGroup from '../components/card-group'
+import NavSection from '../components/cards/nav-section'
 
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
       <div className="container mx-auto">
 
 
-      <h1 className="heading text-5xl font-bold text-auth-text text-center lg:text-left font-red-main mt-24 ">Selected work</h1>
+      <h1 className="heading text-3xl lg:text-5xl font-bold text-auth-text text-center lg:text-left font-red-main mt-24 ">Selected work</h1>
 
 
       <ProjectSection
@@ -74,12 +75,34 @@ export default function Home() {
     
       </div>
 
+   {/*    <div className="container mx-auto">
+      <h1 className="heading text-5xl font-bold text-auth-text text-center lg:text-left font-red-main mt-24">stuff</h1>
+
+        <div className="flex flex-row justify-between">
+        <NavSection
+          name="blender renders"
+          href=""
+        />
+
+        <NavSection
+          name="video editing"
+          href=""
+        />
+
+        <NavSection
+          name="blender renders"
+          href=""
+        />
+        </div>
+  
+      </div> */}
+
 
 
 
       <div className="container mx-auto">
 
-      <h1 className="heading text-5xl font-bold text-auth-text text-center lg:text-left font-red-main mt-24">Skills</h1>
+      <h1 className="heading text-3xl lg:text-5xl font-bold text-auth-text text-center lg:text-left font-red-main mt-24">Skills</h1>
       <CardGroup/>
 
       
