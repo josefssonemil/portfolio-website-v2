@@ -21,7 +21,7 @@ export default function Home() {
 
       </Head>
 
-      <Hero name="Emil Josefsson" subtitle="Aspiring designer and front-end developer" />
+      <Hero name="Emil Josefsson" subtitle="Frontend Developer and UX Designer at Inserve />
 
 
 
