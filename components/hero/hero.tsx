@@ -21,7 +21,11 @@ const Hero = (props) => {
 
                     <hr className="w-full mx-auto mt-6 lg:mx-0 hr-hero"></hr>
 
-                    <h2 className="pt-6 text-md lg:text-lg text-center lg:text-left font-medium text-gray-800 tracking-wider font-red-sub" >Master's student at Chalmers University of Technology.</h2>
+                    <h2 className="pt-6 text-md lg:text-lg text-center lg:text-left font-medium text-gray-800 tracking-wider font-red-sub" >
+                        2019-2021 | Master in Interaction Design @ Chalmers University of Technology <br>
+                        2016-2021 | Software Engineering @ Chalmers University of Technology
+                        
+                    </h2>
 
 
                 </div>
